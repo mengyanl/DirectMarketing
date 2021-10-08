@@ -37,11 +37,11 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 24475,27,services,married,basic.6y,no,no,no,cellular,may,tue,142,2,999,1,failure,-1.8,92.893,-46.2,1.291,5099.1,no
 2908,35,student,single,high.school,no,no,no,telephone,may,mon,3330,1,879,5,success,1.1,93.04320464,-44.2595265,1.065833599,5038.316971,no
 11099,84,entrepreneur,single,basic.6y,yes,unknown,no,telephone,dec,thu,615,20,144,2,success,1.4,94.48313473,-32.75285236,3.407747166,4964.048852,no
-29940,59,admin.,divorced,high.school,no,no,no,cellular,nov,thu,213,3,255,4,nonexistent,-1.1,92.77469653,-33.83423888,3.399735626,4965.375377,no
+29940,59,admin.,divorced,high.school,no,no,no,cellular,nov,thu,213,3,255,4,nonexistent,-1.1,92.77469653,-33.83423888,3.399735626,4965.375377,yes
 22413,37,admin.,divorced,high.school,no,no,yes,cellular,may,tue,3018,1,31,2,nonexistent,-1.8,94.56986215,-27.42057928,4.090774916,5210.033143,no
 8095,41,services,divorced,basic.9y,no,no,no,telephone,jun,thu,2242,1,780,2,failure,1.4,93.14537909,-45.39233911,2.475871409,5037.01376,no
 11752,51,entrepreneur,married,university.degree,unknown,yes,yes,cellular,jul,tue,678,2,766,4,failure,1.4,94.12701247,-28.50907825,0.656420179,4996.152908,no
-3010,30,retired,divorced,high.school,unknown,no,unknown,telephone,mar,wed,182,51,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
+3010,30,retired,divorced,high.school,unknown,no,unknown,telephone,mar,wed,182,51,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,yes
 27404,25,technician,single,university.degree,no,yes,no,cellular,aug,fri,142,2,999,1,failure,-2.9,92.201,-31.4,0.869,5076.2,no
 28880,33,blue-collar,married,basic.6y,no,no,no,telephone,may,mon,165,1,999,0,nonexistent,-1.8,93.876,-40.0,0.682,5008.7,no
 7228,45,blue-collar,married,basic.9y,no,no,no,telephone,jun,wed,993,13,537,6,success,1.4,92.41803953,-46.72280051,3.013518946,5167.528267,no
@@ -53,12 +53,12 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 15367,30,admin.,married,university.degree,unknown,yes,no,cellular,aug,mon,109,2,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 9815,34,technician,single,university.degree,no,yes,no,cellular,jul,thu,560,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 24992,24,management,married,university.degree,no,yes,no,telephone,may,thu,921,4,999,0,nonexistent,-1.8,92.893,-46.2,1.266,5099.1,no
-21400,34,housemaid,unknown,university.degree,yes,unknown,no,cellular,jul,thu,4321,50,941,4,success,-1.8,94.76072974,-33.62327381,3.916737817,5094.646925,no
+21400,34,housemaid,unknown,university.degree,yes,unknown,no,cellular,jul,thu,4321,50,941,4,success,-1.8,94.76072974,-33.62327381,3.916737817,5094.646925,yes
 5695,58,blue-collar,married,basic.6y,unknown,no,no,telephone,jun,mon,4338,1,437,5,nonexistent,1.4,94.02093177,-27.40259224,2.69646506,5045.886486,no
 353,35,technician,married,professional.course,no,yes,no,telephone,may,tue,4241,1,310,3,nonexistent,1.1,94.20182221,-30.45256226,4.226763334,5000.003599,no
 14941,31,housemaid,married,basic.4y,no,no,yes,cellular,aug,tue,3222,6,339,2,success,1.4,93.31247285,-29.93418995,2.309379146,5100.150615,no
 18610,30,admin.,single,high.school,no,yes,no,cellular,nov,wed,481,1,294,4,nonexistent,-0.1,93.62404519,-37.91696833,5.001878301,5218.351133,no
-11252,49,services,divorced,basic.6y,unknown,no,no,telephone,jul,fri,744,4,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,no
+11252,49,services,divorced,basic.6y,unknown,no,no,telephone,jul,fri,744,4,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,yes
 11627,30,admin.,single,high.school,no,yes,no,cellular,jul,tue,102,7,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 17232,39,technician,divorced,professional.course,no,yes,no,cellular,aug,thu,23,17,999,0,nonexistent,1.4,93.444,-36.1,4.962,5228.1,no
 23278,32,admin.,married,university.degree,no,no,no,cellular,may,thu,1030,1,6,1,success,-1.8,92.893,-46.2,1.327,5099.1,no
@@ -131,7 +131,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 26755,52,admin.,married,university.degree,no,yes,no,cellular,jun,fri,1116,1,936,5,failure,-2.9,94.10406022,-28.88247777,2.619749956,5200.560305,yes
 8459,35,services,single,high.school,no,no,no,telephone,jun,fri,1824,14,233,6,failure,1.4,92.37714774,-40.45262154,2.074300739,5171.512524,no
 17726,53,self-employed,married,basic.9y,no,yes,no,cellular,nov,mon,1593,1,435,0,success,-0.1,93.92644444,-27.4744894,0.846164571,4968.624001,no
-29606,34,admin.,married,university.degree,no,no,yes,cellular,sep,mon,1042,3,472,0,success,-1.1,93.51143392,-29.07943306,2.529050449,5017.635147,no
+29606,34,admin.,married,university.degree,no,no,yes,cellular,sep,mon,1042,3,472,0,success,-1.1,93.51143392,-29.07943306,2.529050449,5017.635147,yes
 23953,35,technician,married,university.degree,no,yes,no,cellular,may,mon,42,3,999,0,nonexistent,-1.8,92.893,-46.2,1.299,5099.1,no
 8601,56,unknown,divorced,unknown,yes,no,no,cellular,may,fri,1585,51,913,0,failure,1.4,93.69316511,-50.59661135,2.554652896,5120.942982,yes
 13762,41,technician,married,university.degree,no,yes,yes,cellular,aug,mon,58,2,999,0,nonexistent,1.4,93.444,-36.1,4.97,5228.1,no
@@ -233,7 +233,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 29477,53,management,married,university.degree,no,yes,no,telephone,aug,tue,97,1,999,0,nonexistent,-1.7,94.027,-38.3,0.904,4991.6,no
 23699,34,blue-collar,married,university.degree,no,yes,no,cellular,may,fri,2015,2,822,6,success,-1.8,94.73509992,-48.05803608,0.926658129,5042.613114,no
 2407,33,blue-collar,married,basic.4y,unknown,no,no,telephone,may,thu,98,2,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
-25027,53,management,married,basic.4y,no,unknown,unknown,cellular,aug,thu,1537,19,497,6,failure,-1.8,93.83105109,-40.18208141,0.760422555,5023.527298,no
+25027,53,management,married,basic.4y,no,unknown,unknown,cellular,aug,thu,1537,19,497,6,failure,-1.8,93.83105109,-40.18208141,0.760422555,5023.527298,yes
 22313,39,admin.,single,university.degree,no,no,no,cellular,may,mon,198,2,999,0,nonexistent,-1.8,92.893,-46.2,1.354,5099.1,no
 23558,34,admin.,married,high.school,unknown,yes,no,cellular,may,fri,720,2,955,5,nonexistent,-1.8,93.99552516,-50.05950503,1.716782788,5084.457749,no
 5719,35,blue-collar,divorced,basic.4y,unknown,yes,no,telephone,jun,mon,4127,1,236,0,failure,1.4,94.73662447,-29.04757021,0.637979411,4970.820413,no
@@ -279,7 +279,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2889,83,self-employed,divorced,basic.9y,yes,no,unknown,cellular,jul,wed,156,28,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,yes
 25306,49,entrepreneur,married,university.degree,unknown,yes,yes,cellular,may,thu,197,3,999,0,nonexistent,-1.8,92.893,-46.2,1.266,5099.1,no
 10906,28,self-employed,single,high.school,no,no,no,cellular,jul,thu,63,6,999,0,nonexistent,1.4,93.918,-42.7,4.958,5228.1,no
-29667,39,management,married,university.degree,no,yes,yes,cellular,sep,tue,1788,2,579,0,failure,-1.1,93.15153677,-37.59730241,3.74959907,4984.149174,no
+29667,39,management,married,university.degree,no,yes,yes,cellular,sep,tue,1788,2,579,0,failure,-1.1,93.15153677,-37.59730241,3.74959907,4984.149174,yes
 7338,49,technician,married,professional.course,no,no,yes,telephone,jun,thu,3067,1,523,5,failure,1.4,94.60310815,-47.5680118,1.271199934,5098.264704,no
 875,28,blue-collar,married,basic.6y,unknown,no,no,telephone,may,thu,4375,1,376,3,nonexistent,1.1,92.84713485,-27.12755577,0.717335618,5177.225222,no
 29240,24,services,single,illiterate,no,yes,yes,cellular,oct,fri,1844,19,936,3,failure,-1.7,92.76204854,-35.30528026,4.441323342,4976.07469,yes
@@ -337,7 +337,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 5334,28,services,married,high.school,no,yes,no,telephone,may,fri,897,4,143,0,success,1.1,93.76713815,-27.9971441,2.496723716,5211.609977,no
 7956,57,housemaid,married,basic.4y,no,no,no,telephone,jun,wed,3736,1,702,1,nonexistent,1.4,94.28973848,-40.91992266,1.911916238,5107.225863,no
 11956,36,blue-collar,married,high.school,no,no,no,cellular,jul,wed,780,1,887,4,nonexistent,1.4,94.62416423,-38.07611203,0.781165767,5005.867559,no
-8178,38,admin.,married,high.school,no,yes,no,telephone,jun,thu,1411,1,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,yes
+8178,38,admin.,married,high.school,no,yes,no,telephone,jun,thu,1411,1,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,no
 17029,41,technician,divorced,professional.course,no,no,no,cellular,aug,wed,2556,13,22,3,success,1.4,93.13155196,-37.74534276,4.973381841,5028.877649,no
 13404,38,services,married,high.school,no,no,yes,cellular,jul,thu,74,1,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 18702,42,entrepreneur,single,university.degree,no,yes,no,cellular,nov,wed,145,2,999,0,nonexistent,-0.1,93.2,-42.0,4.12,5195.8,no
@@ -428,7 +428,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 25427,29,blue-collar,divorced,basic.4y,no,no,no,cellular,may,fri,667,3,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,yes
 12272,40,blue-collar,single,professional.course,no,yes,no,cellular,jul,thu,953,1,6,5,success,1.4,92.46509365,-38.14422762,1.808684,5144.229158,no
 14927,31,admin.,married,university.degree,no,no,no,cellular,aug,tue,141,5,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
-22688,34,technician,divorced,university.degree,unknown,unknown,yes,telephone,sep,tue,334,17,999,1,failure,-1.8,92.893,-46.2,1.334,5099.1,yes
+22688,34,technician,divorced,university.degree,unknown,unknown,yes,telephone,sep,tue,334,17,999,1,failure,-1.8,92.893,-46.2,1.334,5099.1,no
 13055,53,services,married,high.school,no,no,yes,cellular,jul,tue,347,3,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 11730,35,blue-collar,married,university.degree,no,unknown,unknown,cellular,jul,tue,87,2,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 13361,88,unemployed,single,professional.course,no,unknown,yes,cellular,aug,mon,68,31,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
@@ -446,7 +446,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 13222,48,entrepreneur,married,basic.9y,no,yes,no,cellular,jul,wed,438,2,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 37,42,technician,single,professional.course,unknown,no,no,telephone,may,mon,2986,1,443,1,success,1.1,93.32384885,-37.87324111,4.800704595,5066.365747,no
 20612,43,technician,single,professional.course,unknown,yes,no,cellular,apr,wed,519,1,999,0,nonexistent,-1.8,93.075,-47.1,1.445,5099.1,no
-29859,68,retired,divorced,high.school,no,yes,no,cellular,oct,mon,222,1,999,0,nonexistent,-1.1,94.601,-49.5,1.0,4963.6,no
+29859,68,retired,divorced,high.school,no,yes,no,cellular,oct,mon,222,1,999,0,nonexistent,-1.1,94.601,-49.5,1.0,4963.6,yes
 8185,40,services,married,high.school,no,yes,yes,telephone,jun,thu,40,1,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,no
 19240,47,technician,married,basic.6y,no,yes,no,cellular,nov,thu,223,1,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 13755,46,blue-collar,married,basic.9y,no,no,no,cellular,aug,mon,68,1,999,0,nonexistent,1.4,93.444,-36.1,4.97,5228.1,no
@@ -568,7 +568,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 27764,31,admin.,single,high.school,no,yes,no,cellular,sep,fri,419,1,648,0,nonexistent,-3.4,93.10009829,-42.53625207,3.194785602,4994.893782,yes
 29422,27,student,single,university.degree,no,no,no,cellular,aug,wed,180,1,3,3,success,-1.7,94.027,-38.3,0.9,4991.6,yes
 7513,63,technician,married,illiterate,yes,no,unknown,telephone,apr,thu,4140,17,35,4,nonexistent,1.4,94.68270931,-28.82953047,2.308319453,5170.400819,no
-21297,41,admin.,married,university.degree,no,no,no,cellular,apr,fri,4353,1,578,6,success,-1.8,93.75054447,-42.70752511,3.133546063,5185.913219,no
+21297,41,admin.,married,university.degree,no,no,no,cellular,apr,fri,4353,1,578,6,success,-1.8,93.75054447,-42.70752511,3.133546063,5185.913219,yes
 28434,47,admin.,married,university.degree,no,no,no,telephone,dec,mon,81,2,692,3,failure,-3.0,92.61246279,-27.27099466,1.713798844,5159.059056,no
 23598,38,admin.,single,university.degree,no,yes,no,cellular,may,fri,132,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 22041,54,housemaid,married,high.school,no,yes,no,cellular,apr,thu,41,1,999,0,nonexistent,-1.8,93.075,-47.1,1.365,5099.1,no
@@ -835,7 +835,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2728,26,services,single,high.school,no,no,no,telephone,may,fri,4613,4,736,2,success,1.1,93.07779613,-43.4919604,4.75132249,5073.989296,no
 9585,33,services,married,basic.9y,unknown,yes,no,telephone,jul,wed,4470,1,13,1,success,1.4,92.89042096,-49.69198829,4.57054838,5226.606342,no
 11538,26,admin.,single,university.degree,no,yes,no,cellular,jul,mon,71,9,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
-10656,35,blue-collar,divorced,basic.9y,no,no,yes,cellular,jul,tue,1083,2,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
+10656,35,blue-collar,divorced,basic.9y,no,no,yes,cellular,jul,tue,1083,2,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,yes
 23857,38,admin.,divorced,high.school,no,no,no,cellular,may,mon,344,1,999,0,nonexistent,-1.8,92.893,-46.2,1.299,5099.1,no
 28358,63,retired,married,basic.4y,no,yes,no,cellular,nov,tue,1077,3,995,1,success,-3.4,93.35071829,-45.77009017,4.578400671,5023.896749,yes
 24212,27,blue-collar,single,basic.4y,no,yes,no,cellular,may,tue,206,1,999,1,failure,-1.8,92.893,-46.2,1.291,5099.1,no
@@ -848,7 +848,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11075,50,blue-collar,married,unknown,unknown,no,no,cellular,jul,thu,84,2,999,0,nonexistent,1.4,93.918,-42.7,4.958,5228.1,no
 17999,51,self-employed,married,basic.4y,no,no,no,cellular,nov,mon,1417,1,521,5,success,-0.1,92.6857173,-29.10262848,3.50602578,4998.592069,no
 3531,42,blue-collar,divorced,basic.9y,no,yes,no,telephone,may,wed,748,1,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
-27824,43,services,married,basic.6y,no,no,no,cellular,sep,tue,159,1,999,1,failure,-3.4,92.379,-29.8,0.75,5017.5,no
+27824,43,services,married,basic.6y,no,no,no,cellular,sep,tue,159,1,999,1,failure,-3.4,92.379,-29.8,0.75,5017.5,yes
 18674,29,blue-collar,married,basic.4y,no,no,no,cellular,nov,wed,219,2,999,0,nonexistent,-0.1,93.2,-42.0,4.12,5195.8,no
 19623,46,admin.,divorced,university.degree,no,unknown,unknown,cellular,nov,thu,257,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 2460,34,blue-collar,single,basic.9y,unknown,no,yes,telephone,may,thu,817,1,796,2,failure,1.1,94.02585006,-41.16020812,3.024898555,5089.343533,no
@@ -869,7 +869,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 629,38,admin.,married,university.degree,no,no,no,telephone,may,wed,4754,2,177,3,failure,1.1,92.21522387,-30.44714493,1.500704385,5175.935082,no
 23823,35,technician,married,university.degree,no,yes,no,cellular,may,mon,123,1,896,5,success,-1.8,93.53662911,-33.84500331,1.049911566,5222.144198,no
 9319,30,technician,single,university.degree,no,no,no,cellular,jul,tue,402,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
-23478,60,entrepreneur,unknown,basic.4y,yes,yes,no,telephone,may,wed,213,28,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,yes
+23478,60,entrepreneur,unknown,basic.4y,yes,yes,no,telephone,may,wed,213,28,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 17573,41,blue-collar,married,basic.9y,no,yes,no,cellular,nov,mon,2812,1,219,1,success,-0.1,93.74641606,-29.3809697,0.885850639,5190.124739,no
 13472,57,admin.,married,university.degree,unknown,no,no,cellular,jul,thu,1097,15,260,1,success,1.4,93.77669419,-45.49526078,4.817327133,5033.507448,no
 12217,52,retired,single,basic.9y,no,no,no,telephone,jul,thu,239,6,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
@@ -921,13 +921,13 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 23914,36,services,married,basic.6y,unknown,yes,no,cellular,may,mon,102,6,999,1,failure,-1.8,92.893,-46.2,1.299,5099.1,no
 22450,47,management,married,university.degree,no,no,no,cellular,may,tue,242,1,999,1,failure,-1.8,92.893,-46.2,1.344,5099.1,no
 21996,39,technician,married,professional.course,no,yes,no,cellular,apr,thu,381,1,999,1,failure,-1.8,93.075,-47.1,1.365,5099.1,yes
-23045,25,self-employed,unknown,professional.course,no,yes,unknown,telephone,sep,thu,4660,34,265,3,nonexistent,-1.8,93.13446886,-41.2653238,4.640746851,5115.546149,no
+23045,25,self-employed,unknown,professional.course,no,yes,unknown,telephone,sep,thu,4660,34,265,3,nonexistent,-1.8,93.13446886,-41.2653238,4.640746851,5115.546149,yes
 12440,35,services,single,basic.9y,no,no,no,cellular,jul,fri,61,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 16829,58,self-employed,married,basic.9y,no,no,no,cellular,aug,tue,83,2,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 9997,38,blue-collar,married,basic.6y,unknown,yes,no,cellular,jul,thu,396,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 22117,21,admin.,single,high.school,no,no,no,cellular,apr,thu,97,2,999,0,nonexistent,-1.8,93.075,-47.1,1.365,5099.1,no
 13690,61,unknown,single,basic.9y,yes,unknown,unknown,telephone,nov,wed,1058,31,868,1,success,1.4,94.58100149,-35.42300492,4.522979747,5066.665526,no
-21274,27,admin.,single,university.degree,no,yes,no,cellular,apr,fri,401,1,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,no
+21274,27,admin.,single,university.degree,no,yes,no,cellular,apr,fri,401,1,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,yes
 8041,42,blue-collar,married,unknown,unknown,no,no,telephone,jun,wed,4128,3,407,4,failure,1.4,92.9541823,-37.96456294,4.97832633,5050.237582,no
 9920,31,blue-collar,single,basic.4y,no,yes,no,cellular,jul,thu,2593,1,846,4,success,1.4,94.26078507,-35.97490619,2.321465695,5175.536833,no
 27314,28,technician,single,professional.course,no,no,yes,cellular,aug,wed,162,1,3,1,success,-2.9,92.201,-31.4,0.879,5076.2,yes
@@ -970,7 +970,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11520,25,blue-collar,married,basic.9y,no,no,no,cellular,jul,mon,132,3,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
 17927,34,services,single,high.school,no,no,no,telephone,nov,mon,206,2,835,3,nonexistent,-0.1,94.62795325,-27.77551178,3.946958504,5033.139362,no
 23682,34,housemaid,unknown,unknown,yes,unknown,no,telephone,mar,mon,133,36,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
-20995,24,management,single,university.degree,no,no,no,cellular,apr,thu,1503,2,357,4,failure,-1.8,93.70456479,-29.92387697,4.192130981,5178.306059,no
+20995,24,management,single,university.degree,no,no,no,cellular,apr,thu,1503,2,357,4,failure,-1.8,93.70456479,-29.92387697,4.192130981,5178.306059,yes
 20092,44,management,single,university.degree,unknown,no,no,cellular,nov,fri,534,2,999,0,nonexistent,-0.1,93.2,-42.0,4.021,5195.8,no
 29696,31,admin.,married,university.degree,no,yes,no,cellular,sep,thu,193,1,999,0,nonexistent,-1.1,94.199,-37.5,0.879,4963.6,yes
 6548,32,services,single,basic.6y,no,unknown,unknown,telephone,jun,thu,816,3,298,4,success,1.4,92.75797794,-44.77650207,1.195150511,5227.868249,no
@@ -1047,7 +1047,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 25431,34,self-employed,single,professional.course,no,yes,no,telephone,may,fri,10,7,999,1,failure,-1.8,92.893,-46.2,1.25,5099.1,no
 29936,19,student,single,basic.9y,no,yes,no,cellular,nov,wed,3607,1,49,0,success,-1.1,94.32849352,-34.7117411,2.573368174,4977.176087,no
 29593,75,retired,married,basic.9y,no,no,no,telephone,sep,fri,543,9,999,1,failure,-1.1,94.199,-37.5,0.883,4963.6,yes
-21970,85,retired,married,basic.4y,no,no,no,cellular,apr,mon,3176,1,705,1,failure,-1.8,93.07701201,-44.5330273,2.032892654,5145.750588,no
+21970,85,retired,married,basic.4y,no,no,no,cellular,apr,mon,3176,1,705,1,failure,-1.8,93.07701201,-44.5330273,2.032892654,5145.750588,yes
 3817,46,management,married,university.degree,no,yes,no,telephone,may,fri,258,5,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 17869,32,self-employed,single,high.school,no,yes,no,cellular,nov,mon,223,1,999,1,failure,-0.1,93.2,-42.0,4.191,5195.8,no
 22361,49,technician,married,high.school,no,yes,no,cellular,may,mon,143,1,999,0,nonexistent,-1.8,92.893,-46.2,1.354,5099.1,no
@@ -1073,7 +1073,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 955,38,unemployed,married,high.school,no,no,yes,telephone,may,thu,223,1,337,0,failure,1.1,94.44198816,-37.90532592,1.803930132,5162.313443,no
 28245,45,admin.,married,university.degree,no,no,yes,cellular,nov,wed,158,1,999,1,failure,-3.4,92.649,-30.1,0.715,5017.5,no
 1116,41,management,divorced,university.degree,unknown,yes,yes,telephone,may,thu,12,2,1,0,failure,1.1,93.62405002,-32.29660354,3.966618284,5034.735102,no
-27104,70,retired,married,basic.4y,unknown,yes,no,cellular,aug,thu,320,1,999,0,nonexistent,-2.9,92.201,-31.4,0.883,5076.2,no
+27104,70,retired,married,basic.4y,unknown,yes,no,cellular,aug,thu,320,1,999,0,nonexistent,-2.9,92.201,-31.4,0.883,5076.2,yes
 1192,38,management,married,basic.9y,unknown,no,no,telephone,may,fri,772,1,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 22116,40,unemployed,married,basic.6y,yes,yes,no,telephone,jul,mon,1878,52,392,5,failure,-1.8,92.39116354,-38.67196748,1.009612496,5225.394912,no
 21333,24,unemployed,married,basic.4y,no,no,no,telephone,mar,wed,413,30,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,yes
@@ -1096,7 +1096,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 18960,36,entrepreneur,single,university.degree,no,no,no,cellular,nov,wed,706,2,266,0,nonexistent,-0.1,92.41170765,-28.90857583,2.048021154,5055.704157,no
 20816,30,management,single,university.degree,no,yes,no,cellular,apr,wed,692,1,999,0,nonexistent,-1.8,93.075,-47.1,1.415,5099.1,yes
 2745,36,housemaid,married,high.school,no,no,no,telephone,may,fri,136,1,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
-21264,45,services,single,unknown,no,no,no,cellular,apr,fri,4361,1,594,6,success,-1.8,92.46790704,-29.17339216,3.089723832,5028.622233,no
+21264,45,services,single,unknown,no,no,no,cellular,apr,fri,4361,1,594,6,success,-1.8,92.46790704,-29.17339216,3.089723832,5028.622233,yes
 26277,36,services,married,high.school,no,yes,no,cellular,may,tue,3339,1,540,2,success,-1.8,92.69928213,-36.92268281,1.586483962,5034.367667,no
 17145,65,self-employed,single,unknown,yes,no,yes,cellular,jun,mon,3700,32,857,3,nonexistent,1.4,93.70145662,-47.1839364,3.492308753,5140.924044,no
 12654,38,admin.,married,high.school,no,yes,no,cellular,jul,mon,2402,2,769,4,success,1.4,92.64129327,-45.19078955,2.319670357,5149.478861,no
@@ -1340,10 +1340,10 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 26120,38,services,married,high.school,no,yes,no,cellular,may,fri,324,1,999,1,failure,-1.8,92.893,-46.2,1.259,5099.1,no
 27520,26,admin.,single,university.degree,no,no,no,cellular,aug,thu,1566,1,871,4,failure,-2.9,93.87991095,-32.400459,0.995569496,5153.572203,no
 393,55,self-employed,married,unknown,unknown,no,no,telephone,may,tue,4337,1,84,5,failure,1.1,92.89812501,-44.42309408,0.798908174,5092.334989,no
-5765,82,services,single,high.school,no,yes,unknown,cellular,may,tue,29,26,475,4,failure,1.4,93.30781459,-29.8190909,4.07274211,5036.830568,yes
+5765,82,services,single,high.school,no,yes,unknown,cellular,may,tue,29,26,475,4,failure,1.4,93.30781459,-29.8190909,4.07274211,5036.830568,no
 20667,64,technician,married,professional.course,no,yes,no,cellular,apr,wed,4113,2,353,6,failure,-1.8,93.34292701,-35.24371131,4.021180702,5081.825964,no
 15855,37,technician,married,professional.course,no,yes,no,cellular,aug,wed,72,1,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
-29026,29,admin.,single,university.degree,no,yes,no,cellular,jun,wed,3363,1,869,0,failure,-1.7,92.81052979,-29.64535621,0.765270642,5064.304954,no
+29026,29,admin.,single,university.degree,no,yes,no,cellular,jun,wed,3363,1,869,0,failure,-1.7,92.81052979,-29.64535621,0.765270642,5064.304954,yes
 24810,36,services,single,high.school,no,no,no,cellular,may,wed,102,6,999,0,nonexistent,-1.8,92.893,-46.2,1.281,5099.1,no
 3021,46,management,married,basic.9y,unknown,no,no,telephone,may,mon,206,4,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
 27107,57,management,married,university.degree,no,yes,no,cellular,aug,thu,161,4,773,4,success,-2.9,94.43576818,-43.46829996,2.014419213,5209.878687,no
@@ -1371,10 +1371,10 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 23333,39,blue-collar,married,basic.4y,no,no,no,cellular,may,thu,166,3,999,1,failure,-1.8,92.893,-46.2,1.327,5099.1,no
 19413,30,technician,single,professional.course,no,no,no,cellular,nov,thu,214,1,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 17972,36,services,married,high.school,no,no,no,cellular,nov,mon,86,2,999,0,nonexistent,-0.1,93.2,-42.0,4.191,5195.8,no
-16308,76,entrepreneur,divorced,basic.9y,no,unknown,unknown,telephone,jun,thu,65,39,208,0,success,1.4,93.88507315,-43.46369099,0.973886269,5195.779888,no
+16308,76,entrepreneur,divorced,basic.9y,no,unknown,unknown,telephone,jun,thu,65,39,208,0,success,1.4,93.88507315,-43.46369099,0.973886269,5195.779888,yes
 1431,25,student,single,high.school,no,no,no,telephone,may,fri,97,1,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 15314,34,admin.,married,university.degree,no,yes,no,telephone,aug,thu,2035,1,303,5,success,1.4,93.87518832,-43.45319323,1.154655598,5015.55233,no
-23134,55,self-employed,married,basic.9y,no,yes,no,cellular,may,thu,1191,1,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
+23134,55,self-employed,married,basic.9y,no,yes,no,cellular,may,thu,1191,1,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,yes
 2175,54,services,divorced,high.school,unknown,no,no,telephone,may,wed,2296,5,73,2,success,1.1,94.41001538,-34.09507668,0.762897134,5009.864305,no
 469,50,blue-collar,married,basic.4y,unknown,yes,no,telephone,may,tue,507,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 2185,36,blue-collar,married,basic.9y,no,no,no,telephone,may,wed,360,2,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
@@ -1425,13 +1425,13 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 4991,40,blue-collar,married,basic.9y,no,yes,no,telephone,may,wed,82,4,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 3376,33,admin.,divorced,high.school,no,no,no,telephone,may,tue,190,1,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 5677,35,admin.,single,basic.4y,unknown,yes,no,telephone,jun,mon,143,1,999,0,nonexistent,1.4,94.465,-41.8,4.865,5228.1,no
-21253,55,retired,married,high.school,no,no,no,cellular,apr,fri,4249,1,705,4,success,-1.8,92.41628952,-44.43133797,2.922562823,4963.713513,yes
+21253,55,retired,married,high.school,no,no,no,cellular,apr,fri,4249,1,705,4,success,-1.8,92.41628952,-44.43133797,2.922562823,4963.713513,no
 14894,35,management,married,university.degree,no,yes,no,cellular,aug,tue,3614,1,9,2,nonexistent,1.4,94.22194123,-35.03508171,1.407268077,5074.948424,no
 8433,46,technician,divorced,professional.course,unknown,yes,no,telephone,jun,fri,365,3,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 5551,52,entrepreneur,married,basic.9y,no,yes,yes,telephone,may,fri,3485,2,795,6,success,1.1,92.88263992,-38.57068148,1.466187229,5164.931949,no
 19121,37,entrepreneur,married,high.school,unknown,no,no,cellular,nov,thu,68,1,999,1,failure,-0.1,93.2,-42.0,4.076,5195.8,no
 10760,45,management,married,high.school,unknown,no,no,cellular,jul,wed,4251,3,687,6,failure,1.4,93.8736632,-43.84568641,3.383814351,4977.278151,no
-1407,45,admin.,married,basic.9y,yes,no,yes,cellular,jun,thu,1266,55,838,2,success,1.1,92.68258428,-42.52273306,0.981280886,5051.108822,no
+1407,45,admin.,married,basic.9y,yes,no,yes,cellular,jun,thu,1266,55,838,2,success,1.1,92.68258428,-42.52273306,0.981280886,5051.108822,yes
 6077,35,technician,married,professional.course,no,yes,no,telephone,jun,tue,589,6,999,0,nonexistent,1.4,94.465,-41.8,4.864,5228.1,no
 19752,42,admin.,married,university.degree,no,no,no,cellular,nov,fri,513,3,580,1,failure,-0.1,93.17219163,-49.66891504,2.790249427,5168.581369,no
 10190,40,technician,single,professional.course,no,no,no,cellular,jul,fri,260,2,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
@@ -1575,7 +1575,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 12397,28,services,single,high.school,no,no,no,cellular,jul,fri,102,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 3172,36,services,single,unknown,no,no,no,telephone,may,tue,3510,1,955,5,nonexistent,1.1,94.06328121,-29.80195388,2.457029552,5082.054621,no
 12699,45,admin.,divorced,basic.6y,no,no,yes,telephone,jul,mon,296,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
-27058,54,admin.,married,university.degree,no,yes,no,cellular,jul,tue,3456,2,485,5,failure,-2.9,94.55754745,-50.03355747,2.109926367,5141.73801,no
+27058,54,admin.,married,university.degree,no,yes,no,cellular,jul,tue,3456,2,485,5,failure,-2.9,94.55754745,-50.03355747,2.109926367,5141.73801,yes
 21052,51,blue-collar,married,basic.9y,unknown,yes,no,cellular,apr,fri,81,1,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,no
 28751,33,admin.,single,university.degree,no,yes,no,cellular,apr,mon,1961,1,882,3,success,-1.8,93.47630707,-36.46710359,1.447898828,5220.539915,no
 1651,34,technician,married,university.degree,no,no,no,telephone,may,tue,3004,1,386,4,success,1.1,93.05715971,-40.83823345,4.391816514,5001.578841,no
@@ -1858,7 +1858,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 21852,38,admin.,divorced,basic.9y,no,yes,no,cellular,apr,mon,39,4,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,no
 19472,34,student,divorced,university.degree,no,yes,no,cellular,nov,thu,48,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 12835,41,unknown,unknown,unknown,no,yes,no,cellular,jul,mon,4587,13,862,0,nonexistent,1.4,92.33259429,-32.69784527,4.068226146,5003.368442,no
-14760,55,unknown,unknown,illiterate,yes,yes,no,telephone,sep,fri,3655,33,120,3,success,1.4,92.90826064,-34.9693937,0.958774983,4965.269921,no
+14760,55,unknown,unknown,illiterate,yes,yes,no,telephone,sep,fri,3655,33,120,3,success,1.4,92.90826064,-34.9693937,0.958774983,4965.269921,yes
 26609,29,admin.,single,university.degree,no,no,no,cellular,jun,wed,174,1,999,0,nonexistent,-2.9,92.963,-40.8,1.26,5076.2,yes
 29177,37,admin.,single,university.degree,no,yes,no,cellular,jul,fri,4615,2,472,6,success,-1.7,93.13634664,-29.8618702,4.015712378,5054.496895,no
 5841,30,technician,married,professional.course,no,yes,no,telephone,jun,mon,3943,1,652,0,success,1.4,93.34157528,-33.55418582,2.105689212,5030.850246,no
@@ -1903,7 +1903,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 9909,51,admin.,married,professional.course,no,no,no,cellular,jul,thu,3938,1,895,0,failure,1.4,93.95314976,-32.2165991,2.788193639,5044.615206,no
 19817,40,blue-collar,divorced,basic.9y,no,yes,no,cellular,nov,fri,1182,1,999,0,nonexistent,-0.1,93.2,-42.0,4.021,5195.8,no
 24442,48,blue-collar,married,basic.9y,no,no,yes,cellular,may,tue,2417,2,934,0,failure,-1.8,94.50051458,-32.37763005,2.29474105,5074.319615,no
-29828,66,retired,married,basic.4y,unknown,unknown,unknown,cellular,oct,wed,216,1,6,3,success,-1.1,94.601,-49.5,0.985,4963.6,no
+29828,66,retired,married,basic.4y,unknown,unknown,unknown,cellular,oct,wed,216,1,6,3,success,-1.1,94.601,-49.5,0.985,4963.6,yes
 5750,25,admin.,married,university.degree,no,no,no,telephone,jun,mon,121,4,999,0,nonexistent,1.4,94.465,-41.8,4.865,5228.1,no
 7332,27,admin.,divorced,high.school,no,no,no,telephone,jun,thu,138,1,999,0,nonexistent,1.4,94.465,-41.8,4.958,5228.1,no
 22658,35,admin.,single,university.degree,no,yes,no,cellular,may,tue,614,1,999,0,nonexistent,-1.8,92.893,-46.2,1.344,5099.1,no
@@ -1911,7 +1911,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 19847,49,self-employed,married,university.degree,unknown,yes,no,cellular,nov,fri,110,1,999,1,failure,-0.1,93.2,-42.0,4.021,5195.8,no
 6734,48,management,married,basic.9y,no,yes,no,telephone,jun,fri,3151,2,394,6,success,1.4,93.47042439,-46.03569112,3.251753665,5205.269209,no
 21544,37,management,married,university.degree,no,yes,no,cellular,apr,mon,2408,5,439,5,nonexistent,-1.8,93.71247494,-42.40574687,3.546011962,5181.230917,no
-17489,41,admin.,single,high.school,no,no,no,telephone,oct,tue,49,1,999,0,nonexistent,-0.1,93.798,-40.4,4.968,5195.8,no
+17489,41,admin.,single,high.school,no,no,no,telephone,oct,tue,49,1,999,0,nonexistent,-0.1,93.798,-40.4,4.968,5195.8,yes
 24957,29,services,single,high.school,no,yes,no,cellular,may,wed,1831,3,785,6,failure,-1.8,93.12531285,-39.53102825,4.936726608,4988.435852,no
 10559,31,technician,single,professional.course,no,yes,no,cellular,jul,tue,350,4,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 25062,54,blue-collar,married,basic.9y,no,no,yes,cellular,may,thu,218,1,272,1,nonexistent,-1.8,94.01708614,-40.95745774,4.562065069,5021.649939,no
@@ -1954,7 +1954,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 18448,30,entrepreneur,single,basic.9y,no,yes,no,cellular,nov,tue,3171,5,194,2,nonexistent,-0.1,93.88453738,-34.59702389,4.887952057,4968.859922,no
 29740,23,student,single,university.degree,no,yes,no,cellular,sep,fri,349,2,999,4,failure,-1.1,94.199,-37.5,0.879,4963.6,yes
 24288,42,blue-collar,married,basic.4y,no,no,no,cellular,may,tue,360,1,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,no
-29066,31,technician,married,professional.course,no,yes,no,cellular,jun,tue,619,2,3,1,success,-1.7,94.055,-39.8,0.723,4991.6,no
+29066,31,technician,married,professional.course,no,yes,no,cellular,jun,tue,619,2,3,1,success,-1.7,94.055,-39.8,0.723,4991.6,yes
 24913,57,services,married,high.school,unknown,yes,no,cellular,may,wed,2170,7,836,0,success,-1.8,94.09956736,-38.46612568,3.844665552,5053.06471,no
 18215,34,technician,married,university.degree,no,no,no,cellular,nov,tue,131,1,999,0,nonexistent,-0.1,93.2,-42.0,4.153,5195.8,no
 25476,41,blue-collar,married,basic.4y,no,yes,no,cellular,may,fri,4770,1,778,0,failure,-1.8,94.46701051,-45.95665479,4.415307054,5021.172735,no
@@ -2020,7 +2020,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 20556,41,admin.,married,university.degree,no,yes,yes,cellular,apr,tue,2624,1,644,6,success,-1.8,93.0753886,-38.97421298,0.658156838,5107.025447,no
 16571,57,self-employed,married,university.degree,unknown,yes,no,cellular,aug,mon,315,2,621,5,success,1.4,94.13013673,-38.40308687,2.704546331,5079.140123,no
 14151,41,retired,divorced,basic.4y,yes,no,unknown,cellular,sep,thu,74,36,999,0,nonexistent,1.4,93.444,-36.1,4.968,5228.1,yes
-21979,78,unemployed,unknown,high.school,no,yes,no,cellular,may,thu,101,44,999,0,nonexistent,-1.8,93.075,-47.1,1.384,5099.1,no
+21979,78,unemployed,unknown,high.school,no,yes,no,cellular,may,thu,101,44,999,0,nonexistent,-1.8,93.075,-47.1,1.384,5099.1,yes
 22101,49,unemployed,married,university.degree,no,no,no,cellular,apr,thu,171,1,999,1,failure,-1.8,93.075,-47.1,1.365,5099.1,no
 15334,54,blue-collar,married,basic.4y,no,no,no,cellular,aug,thu,253,5,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
 1424,25,self-employed,single,university.degree,no,unknown,unknown,telephone,may,fri,2750,2,207,0,failure,1.1,92.52553043,-36.63277458,2.361769519,5048.598128,no
@@ -2123,7 +2123,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 21418,39,management,single,university.degree,no,no,no,cellular,apr,fri,4753,2,488,2,failure,-1.8,92.46354548,-44.86797785,4.887028649,4994.672807,yes
 27778,21,student,single,basic.9y,no,unknown,unknown,cellular,sep,tue,875,1,999,0,nonexistent,-3.4,92.379,-29.8,0.77,5017.5,yes
 18831,45,blue-collar,divorced,basic.9y,no,yes,no,cellular,nov,wed,384,1,999,1,failure,-0.1,93.2,-42.0,4.12,5195.8,no
-27289,20,student,single,basic.4y,no,yes,no,cellular,aug,wed,131,1,999,1,failure,-2.9,92.201,-31.4,0.879,5076.2,yes
+27289,20,student,single,basic.4y,no,yes,no,cellular,aug,wed,131,1,999,1,failure,-2.9,92.201,-31.4,0.879,5076.2,no
 7871,31,technician,married,professional.course,no,no,no,telephone,jun,wed,2133,2,991,1,failure,1.4,94.31588612,-38.64838178,1.698588085,5198.183337,no
 11508,48,blue-collar,married,basic.6y,unknown,yes,yes,cellular,jul,mon,3630,1,853,1,success,1.4,93.18899369,-27.66679958,0.796760431,5158.628288,no
 14961,36,technician,married,university.degree,no,yes,no,cellular,aug,tue,120,3,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
@@ -2132,14 +2132,14 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 13423,37,unemployed,single,university.degree,no,yes,no,cellular,jul,thu,47,1,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 29406,28,admin.,single,university.degree,no,yes,yes,cellular,aug,tue,187,2,6,2,success,-1.7,94.027,-38.3,0.899,4991.6,yes
 16562,37,admin.,single,university.degree,no,no,yes,cellular,aug,mon,220,2,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
-29722,28,blue-collar,single,university.degree,no,yes,no,cellular,sep,thu,1314,2,150,4,failure,-1.1,93.96889618,-40.75010275,0.717357826,5151.329611,yes
+29722,28,blue-collar,single,university.degree,no,yes,no,cellular,sep,thu,1314,2,150,4,failure,-1.1,93.96889618,-40.75010275,0.717357826,5151.329611,no
 16169,56,admin.,married,basic.9y,unknown,no,yes,cellular,aug,thu,59,3,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 23656,26,student,single,basic.9y,unknown,yes,no,cellular,may,fri,682,2,3,2,success,-1.8,92.893,-46.2,1.313,5099.1,no
 5057,45,admin.,married,basic.9y,no,yes,yes,telephone,may,thu,254,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
 20767,34,admin.,single,university.degree,no,yes,yes,cellular,apr,tue,658,2,192,0,success,-1.8,94.14457959,-50.23821119,4.7104671,5030.888058,no
 16516,36,technician,single,university.degree,no,no,no,cellular,aug,fri,4687,5,201,6,success,1.4,94.71875198,-32.72593919,2.94202513,5035.377806,no
 20322,75,retired,divorced,basic.9y,no,no,no,cellular,mar,mon,233,1,999,0,nonexistent,-1.8,92.843,-50.0,1.56,5099.1,no
-1924,37,admin.,married,high.school,no,no,no,telephone,may,tue,1106,4,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
+1924,37,admin.,married,high.school,no,no,no,telephone,may,tue,1106,4,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,yes
 6841,29,technician,married,university.degree,no,no,yes,telephone,jun,fri,252,4,999,0,nonexistent,1.4,94.465,-41.8,4.967,5228.1,no
 14054,33,technician,single,professional.course,no,yes,no,cellular,aug,wed,84,1,999,0,nonexistent,1.4,93.444,-36.1,4.967,5228.1,no
 28108,24,student,single,high.school,no,yes,no,cellular,oct,thu,4194,3,625,3,success,-3.4,92.40536011,-43.52649405,1.302640686,4977.069133,yes
@@ -2174,7 +2174,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 716,45,services,married,high.school,unknown,yes,no,telephone,may,wed,206,2,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 26226,28,self-employed,single,university.degree,no,no,yes,cellular,may,mon,3600,1,244,6,nonexistent,-1.8,93.60424519,-49.61481965,3.398638414,5054.495424,no
 15897,50,blue-collar,married,basic.9y,no,yes,no,cellular,aug,wed,72,4,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
-16232,80,unknown,single,professional.course,no,no,no,telephone,jul,wed,81,6,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
+16232,80,unknown,single,professional.course,no,no,no,telephone,jul,wed,81,6,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,yes
 11710,39,technician,married,professional.course,no,no,yes,cellular,jul,tue,90,1,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 15727,47,unemployed,married,professional.course,unknown,yes,yes,cellular,aug,tue,3395,1,116,6,nonexistent,1.4,93.00441246,-46.74363645,0.720739396,5025.405467,no
 21191,46,blue-collar,married,unknown,no,no,no,cellular,apr,fri,193,1,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,no
@@ -2230,7 +2230,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 9912,27,blue-collar,married,high.school,no,yes,no,cellular,jul,thu,212,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 28482,55,entrepreneur,divorced,basic.9y,no,no,no,cellular,dec,fri,415,7,999,0,nonexistent,-3.0,92.713,-33.0,0.71,5023.5,yes
 15752,50,unknown,single,unknown,yes,unknown,yes,telephone,aug,thu,1400,37,529,2,success,1.4,92.70625452,-28.92755314,2.989603274,5011.42082,no
-20377,80,retired,married,basic.4y,unknown,yes,no,cellular,mar,mon,415,1,999,0,nonexistent,-1.8,92.843,-50.0,1.52,5099.1,no
+20377,80,retired,married,basic.4y,unknown,yes,no,cellular,mar,mon,415,1,999,0,nonexistent,-1.8,92.843,-50.0,1.52,5099.1,yes
 29969,43,admin.,divorced,university.degree,no,yes,no,cellular,nov,fri,741,4,999,2,failure,-1.1,94.767,-50.8,1.04,4963.6,yes
 21943,33,self-employed,married,university.degree,no,no,no,telephone,apr,thu,155,1,999,0,nonexistent,-1.8,93.075,-47.1,1.406,5099.1,no
 7489,79,retired,married,professional.course,yes,unknown,yes,cellular,apr,fri,1416,43,116,6,success,1.4,92.5429759,-30.29657993,1.661574071,5127.072006,yes
@@ -2407,7 +2407,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 20533,43,services,married,professional.course,no,no,no,cellular,apr,mon,230,1,999,0,nonexistent,-1.8,93.075,-47.1,1.466,5099.1,no
 616,41,blue-collar,married,basic.9y,unknown,yes,no,telephone,may,wed,112,1,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 11977,36,blue-collar,married,basic.9y,no,no,no,cellular,jul,wed,157,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
-11738,93,technician,divorced,basic.6y,no,yes,yes,cellular,jun,wed,112,25,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
+11738,93,technician,divorced,basic.6y,no,yes,yes,cellular,jun,wed,112,25,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,yes
 1206,35,blue-collar,married,professional.course,no,yes,yes,telephone,may,fri,710,1,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 7962,31,housemaid,married,professional.course,no,yes,no,telephone,jun,wed,36,1,999,0,nonexistent,1.4,94.465,-41.8,4.962,5228.1,no
 17539,29,admin.,married,basic.9y,no,yes,no,telephone,nov,fri,453,1,999,0,nonexistent,-0.1,93.2,-42.0,4.474,5195.8,no
@@ -2555,13 +2555,13 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 25447,35,blue-collar,married,basic.4y,unknown,yes,no,cellular,may,fri,196,1,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,no
 11941,39,management,married,basic.9y,no,no,no,cellular,jul,wed,55,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 28176,71,retired,married,professional.course,no,yes,no,cellular,nov,tue,1668,1,824,6,failure,-3.4,94.50843748,-45.98613183,3.285329407,5119.551193,no
-29826,27,blue-collar,single,high.school,no,yes,no,cellular,oct,tue,2724,3,58,3,nonexistent,-1.1,94.12150285,-45.14966066,3.988841969,5163.171018,yes
+29826,27,blue-collar,single,high.school,no,yes,no,cellular,oct,tue,2724,3,58,3,nonexistent,-1.1,94.12150285,-45.14966066,3.988841969,5163.171018,no
 7725,49,admin.,single,unknown,unknown,unknown,unknown,telephone,jun,tue,789,1,443,5,failure,1.4,94.04364969,-31.58912092,2.204515026,4973.031057,no
 20505,41,admin.,married,basic.6y,no,no,no,cellular,apr,fri,4257,2,288,6,nonexistent,-1.8,94.24176409,-46.37304575,1.979846969,5046.617929,yes
 3735,29,technician,single,university.degree,no,yes,no,telephone,may,fri,3538,1,942,2,nonexistent,1.1,93.0146573,-36.05381894,4.923794548,5035.992752,no
 9660,41,self-employed,married,basic.4y,unknown,no,no,cellular,jul,wed,2169,1,208,5,failure,1.4,93.20190352,-32.96807755,3.878559897,5033.282677,no
 3217,32,entrepreneur,single,university.degree,unknown,yes,no,telephone,may,tue,3583,1,190,5,nonexistent,1.1,92.77748948,-32.3882221,2.21263354,4976.586341,no
-28881,64,unknown,married,high.school,unknown,no,no,telephone,may,fri,135,49,999,0,nonexistent,-1.8,93.876,-40.0,0.682,5008.7,no
+28881,64,unknown,married,high.school,unknown,no,no,telephone,may,fri,135,49,999,0,nonexistent,-1.8,93.876,-40.0,0.682,5008.7,yes
 14020,48,admin.,married,high.school,no,yes,no,cellular,aug,wed,3397,2,157,0,success,1.4,93.84716507,-49.12675292,4.571161038,5182.463264,no
 11515,44,admin.,single,basic.9y,no,yes,no,cellular,jul,mon,50,5,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
 23838,32,blue-collar,married,basic.9y,no,yes,no,cellular,may,mon,197,1,999,0,nonexistent,-1.8,92.893,-46.2,1.299,5099.1,no
@@ -2571,7 +2571,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 17130,45,admin.,married,unknown,unknown,no,no,cellular,aug,thu,54,4,999,0,nonexistent,1.4,93.444,-36.1,4.962,5228.1,no
 22915,33,blue-collar,single,basic.9y,no,yes,no,cellular,may,wed,116,2,999,1,failure,-1.8,92.893,-46.2,1.334,5099.1,no
 28949,31,services,single,basic.9y,no,unknown,unknown,cellular,may,fri,429,1,999,3,failure,-1.8,93.876,-40.0,0.695,5008.7,yes
-24609,63,student,divorced,basic.6y,yes,unknown,unknown,telephone,jul,tue,194,55,895,3,failure,-1.8,92.74732857,-48.78978645,1.999526528,5079.891467,no
+24609,63,student,divorced,basic.6y,yes,unknown,unknown,telephone,jul,tue,194,55,895,3,failure,-1.8,92.74732857,-48.78978645,1.999526528,5079.891467,yes
 17212,47,admin.,divorced,university.degree,no,yes,no,cellular,aug,thu,507,4,999,0,nonexistent,1.4,93.444,-36.1,4.962,5228.1,no
 19274,45,blue-collar,married,basic.9y,no,no,no,cellular,nov,thu,3449,1,235,1,failure,-0.1,93.10985989,-36.34155699,0.635264207,5128.372059,no
 15703,58,retired,married,university.degree,unknown,no,no,cellular,aug,tue,2399,1,618,4,failure,1.4,93.85506484,-47.33557474,4.637167665,5052.12749,no
@@ -2580,7 +2580,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 14816,52,management,married,university.degree,unknown,no,no,cellular,aug,tue,95,5,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
 23589,31,blue-collar,married,basic.6y,no,yes,no,cellular,may,fri,164,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 10040,48,technician,married,basic.6y,no,no,no,cellular,jul,thu,171,5,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
-20365,60,admin.,married,university.degree,no,yes,no,cellular,mar,fri,3016,1,883,6,success,-1.8,93.15187474,-37.73568594,2.466510865,4971.837601,no
+20365,60,admin.,married,university.degree,no,yes,no,cellular,mar,fri,3016,1,883,6,success,-1.8,93.15187474,-37.73568594,2.466510865,4971.837601,yes
 2944,32,admin.,married,university.degree,no,yes,no,telephone,may,mon,23,1,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
 21129,34,technician,divorced,professional.course,no,yes,no,cellular,apr,fri,2755,1,56,2,failure,-1.8,94.50418933,-46.4782894,2.761662803,5029.886854,yes
 27924,33,unemployed,married,high.school,no,yes,yes,cellular,oct,tue,301,2,999,0,nonexistent,-3.4,92.431,-26.9,0.742,5017.5,no
@@ -2680,7 +2680,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 20190,44,blue-collar,single,professional.course,no,no,no,cellular,mar,mon,239,1,999,0,nonexistent,-1.8,92.843,-50.0,1.811,5099.1,no
 1062,45,blue-collar,single,basic.9y,no,no,no,telephone,may,thu,78,3,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 20509,49,services,married,basic.6y,no,yes,no,cellular,apr,fri,219,2,999,0,nonexistent,-1.8,93.075,-47.1,1.479,5099.1,no
-19185,35,entrepreneur,married,high.school,no,yes,no,cellular,nov,thu,566,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,yes
+19185,35,entrepreneur,married,high.school,no,yes,no,cellular,nov,thu,566,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 3368,41,technician,divorced,basic.4y,no,yes,no,telephone,may,tue,835,1,615,6,success,1.1,93.00595563,-41.94453758,4.673257859,5086.768296,no
 6608,35,technician,married,university.degree,no,yes,no,telephone,jun,fri,3894,3,231,1,success,1.4,93.86338152,-47.72408893,2.196612325,4999.968322,no
 16301,44,admin.,married,high.school,no,yes,no,cellular,aug,fri,111,1,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
@@ -2711,7 +2711,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 3833,45,technician,married,university.degree,no,yes,no,telephone,may,fri,2030,1,885,6,success,1.1,92.37397025,-40.20685315,2.027764812,5020.472706,no
 29669,30,technician,single,professional.course,no,no,no,cellular,sep,tue,221,2,999,1,failure,-1.1,94.199,-37.5,0.877,4963.6,yes
 24796,35,blue-collar,single,basic.4y,unknown,yes,no,cellular,may,wed,130,3,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,no
-819,49,technician,married,professional.course,unknown,unknown,unknown,telephone,may,wed,865,2,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,yes
+819,49,technician,married,professional.course,unknown,unknown,unknown,telephone,may,wed,865,2,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 24818,35,blue-collar,married,basic.6y,no,no,no,telephone,may,wed,622,3,999,0,nonexistent,-1.8,92.893,-46.2,1.281,5099.1,no
 20413,27,entrepreneur,married,professional.course,no,unknown,unknown,cellular,apr,wed,297,1,999,0,nonexistent,-1.8,93.075,-47.1,1.498,5099.1,no
 18258,37,retired,divorced,basic.9y,unknown,no,no,cellular,nov,tue,198,1,999,0,nonexistent,-0.1,93.2,-42.0,4.153,5195.8,no
@@ -2770,7 +2770,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 901,43,blue-collar,married,basic.9y,no,no,no,telephone,may,thu,323,1,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 12934,34,housemaid,married,university.degree,no,no,no,cellular,jul,tue,2540,1,990,1,success,1.4,92.29797177,-35.19619335,3.176622142,5103.137056,no
 8494,45,blue-collar,married,basic.6y,unknown,yes,no,telephone,jun,fri,3280,11,406,5,failure,1.4,93.76472424,-29.47233409,1.143368758,5133.224747,no
-22025,48,entrepreneur,married,university.degree,no,yes,no,cellular,apr,thu,871,1,999,0,nonexistent,-1.8,93.075,-47.1,1.365,5099.1,no
+22025,48,entrepreneur,married,university.degree,no,yes,no,cellular,apr,thu,871,1,999,0,nonexistent,-1.8,93.075,-47.1,1.365,5099.1,yes
 24507,80,admin.,married,basic.6y,unknown,no,unknown,telephone,aug,tue,135,37,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,yes
 9838,31,blue-collar,married,basic.9y,no,yes,no,telephone,jul,thu,1249,1,967,2,nonexistent,1.4,93.96111005,-43.69453438,3.020759193,5203.710285,no
 11481,47,housemaid,divorced,basic.4y,unknown,no,no,cellular,jul,mon,357,1,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
@@ -2812,7 +2812,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 3868,44,blue-collar,married,professional.course,no,unknown,unknown,telephone,may,fri,4186,2,859,6,nonexistent,1.1,93.55897925,-38.4805048,4.623861111,5162.41608,no
 20722,88,unknown,divorced,basic.4y,yes,yes,no,telephone,oct,wed,327,14,999,1,failure,-1.8,93.075,-47.1,1.435,5099.1,yes
 5848,38,admin.,single,university.degree,unknown,no,no,telephone,jun,mon,703,1,892,2,failure,1.4,92.94901034,-41.67393222,4.64515471,5055.228669,no
-27556,53,housemaid,divorced,basic.6y,no,yes,no,telephone,may,tue,467,12,6,1,success,-2.9,92.201,-31.4,0.843,5076.2,no
+27556,53,housemaid,divorced,basic.6y,no,yes,no,telephone,may,tue,467,12,6,1,success,-2.9,92.201,-31.4,0.843,5076.2,yes
 2016,54,management,married,university.degree,unknown,no,no,telephone,may,wed,4677,1,313,0,success,1.1,94.04750194,-45.43981826,4.298830154,5120.305058,no
 16442,55,blue-collar,married,basic.9y,unknown,no,no,cellular,aug,fri,385,6,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
 7229,40,blue-collar,married,basic.4y,unknown,no,no,telephone,jun,wed,105,3,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
@@ -2834,9 +2834,9 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 24550,40,blue-collar,single,basic.9y,no,yes,yes,cellular,may,wed,900,7,366,3,failure,-1.8,92.93556974,-29.78011408,0.751676609,5177.993048,no
 1535,38,blue-collar,married,professional.course,no,no,no,telephone,may,mon,393,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 21108,36,entrepreneur,married,university.degree,no,yes,no,cellular,apr,fri,2814,2,824,6,failure,-1.8,92.72032993,-31.51155611,4.116889204,5065.446856,no
-26990,37,unemployed,unknown,professional.course,unknown,yes,no,telephone,aug,thu,94,54,999,0,nonexistent,-2.9,92.469,-33.6,1.044,5076.2,yes
+26990,37,unemployed,unknown,professional.course,unknown,yes,no,telephone,aug,thu,94,54,999,0,nonexistent,-2.9,92.469,-33.6,1.044,5076.2,no
 3105,54,technician,married,high.school,no,no,no,telephone,may,tue,13,12,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
-21890,34,admin.,divorced,high.school,no,yes,no,telephone,apr,tue,827,3,650,6,success,-1.8,92.74521002,-46.65975121,2.852163906,5089.739323,yes
+21890,34,admin.,divorced,high.school,no,yes,no,telephone,apr,tue,827,3,650,6,success,-1.8,92.74521002,-46.65975121,2.852163906,5089.739323,no
 9672,47,services,single,basic.6y,no,no,unknown,telephone,jun,thu,90,13,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 21061,42,blue-collar,married,basic.4y,unknown,no,no,cellular,apr,fri,1509,1,152,6,nonexistent,-1.8,94.46977519,-44.61847031,3.742353356,5205.682376,no
 8360,30,technician,married,professional.course,no,no,no,telephone,jun,fri,269,1,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
@@ -2897,7 +2897,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 16752,49,admin.,married,university.degree,no,no,no,cellular,aug,tue,958,5,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,yes
 21038,25,student,married,university.degree,no,yes,yes,telephone,apr,thu,3463,7,757,5,success,-1.8,92.64254693,-38.23770925,5.014194679,5123.232396,no
 903,48,blue-collar,divorced,basic.4y,no,no,no,telephone,may,thu,287,7,592,4,success,1.1,94.13184617,-48.78040178,1.70863978,4971.829583,no
-24450,39,admin.,married,university.degree,no,no,no,cellular,may,tue,614,3,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,no
+24450,39,admin.,married,university.degree,no,no,no,cellular,may,tue,614,3,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,yes
 10290,33,technician,divorced,professional.course,no,yes,no,cellular,jul,mon,72,4,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 16525,35,management,married,university.degree,no,no,yes,cellular,aug,fri,2395,5,284,3,failure,1.4,93.95237436,-37.4506385,3.058151698,5131.308739,no
 25266,36,blue-collar,married,basic.6y,no,yes,yes,cellular,may,thu,157,2,999,1,failure,-1.8,92.893,-46.2,1.266,5099.1,no
@@ -2928,7 +2928,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 8426,54,technician,married,high.school,no,yes,no,telephone,jun,fri,47,2,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 21435,45,services,single,unknown,no,no,no,telephone,apr,fri,541,1,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,no
 7405,35,admin.,single,high.school,no,no,no,telephone,jun,mon,10,5,999,0,nonexistent,1.4,94.465,-41.8,4.96,5228.1,no
-26955,32,self-employed,single,university.degree,no,no,no,cellular,jul,thu,1935,2,384,3,nonexistent,-2.9,93.22903544,-46.53673872,1.312510501,5135.044972,no
+26955,32,self-employed,single,university.degree,no,no,no,cellular,jul,thu,1935,2,384,3,nonexistent,-2.9,93.22903544,-46.53673872,1.312510501,5135.044972,yes
 16887,42,management,married,university.degree,no,no,yes,cellular,aug,tue,130,3,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 9497,33,admin.,married,university.degree,no,yes,no,cellular,jul,tue,1286,5,182,0,nonexistent,1.4,92.81467023,-37.81413323,2.46249605,5075.948829,no
 10535,34,services,divorced,high.school,no,no,yes,cellular,jul,tue,101,2,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
@@ -2945,7 +2945,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 13672,31,services,single,high.school,no,yes,no,cellular,jul,thu,48,3,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 12737,57,self-employed,married,university.degree,unknown,no,no,cellular,jul,mon,83,4,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 5664,30,services,divorced,basic.9y,no,no,no,telephone,jun,mon,394,1,999,0,nonexistent,1.4,94.465,-41.8,4.865,5228.1,no
-16435,95,student,divorced,university.degree,yes,no,no,telephone,may,mon,3053,13,546,4,failure,1.4,93.5052514,-44.36991569,1.375012328,5197.547873,yes
+16435,95,student,divorced,university.degree,yes,no,no,telephone,may,mon,3053,13,546,4,failure,1.4,93.5052514,-44.36991569,1.375012328,5197.547873,no
 7444,28,admin.,single,university.degree,no,no,no,telephone,jun,mon,78,5,999,0,nonexistent,1.4,94.465,-41.8,4.96,5228.1,no
 6090,51,blue-collar,married,basic.9y,no,yes,no,telephone,jun,tue,81,6,999,0,nonexistent,1.4,94.465,-41.8,4.864,5228.1,no
 16414,31,admin.,single,university.degree,no,no,yes,cellular,aug,fri,2655,2,612,2,failure,1.4,93.32526333,-38.4437944,4.250162608,5061.881482,no
@@ -3000,7 +3000,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 28171,34,admin.,single,high.school,no,yes,no,cellular,nov,mon,725,2,8,2,failure,-3.4,92.649,-30.1,0.722,5017.5,yes
 13593,47,technician,married,professional.course,no,yes,yes,cellular,jul,thu,2064,4,995,2,failure,1.4,93.30765673,-32.01389338,4.898257021,5101.55812,no
 10624,31,admin.,single,high.school,no,no,no,cellular,jul,tue,355,1,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
-15539,40,housemaid,unknown,basic.9y,yes,unknown,yes,telephone,aug,wed,445,28,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
+15539,40,housemaid,unknown,basic.9y,yes,unknown,yes,telephone,aug,wed,445,28,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,yes
 29506,27,admin.,married,university.degree,no,no,no,cellular,aug,thu,312,3,6,1,success,-1.7,94.027,-38.3,0.899,4991.6,yes
 12948,50,technician,single,university.degree,unknown,no,no,cellular,jul,tue,86,2,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 3364,33,housemaid,married,basic.4y,no,unknown,unknown,telephone,may,tue,129,8,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
@@ -3053,7 +3053,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 16372,58,blue-collar,married,unknown,unknown,yes,no,cellular,aug,fri,101,1,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
 13498,38,technician,single,professional.course,no,no,no,cellular,jul,thu,25,6,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 29799,39,housemaid,married,basic.4y,no,yes,no,cellular,oct,fri,794,2,836,4,failure,-1.1,93.39349959,-50.73544597,1.870282307,5020.257058,yes
-27364,41,blue-collar,married,basic.9y,no,no,no,cellular,aug,thu,75,1,999,1,failure,-2.9,92.201,-31.4,0.873,5076.2,yes
+27364,41,blue-collar,married,basic.9y,no,no,no,cellular,aug,thu,75,1,999,1,failure,-2.9,92.201,-31.4,0.873,5076.2,no
 1154,54,technician,married,basic.9y,no,no,no,telephone,may,thu,207,3,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 21116,33,blue-collar,married,basic.9y,no,yes,no,cellular,apr,fri,4813,1,597,5,success,-1.8,94.48040883,-43.41039126,5.032568002,5154.136193,no
 17106,31,admin.,single,university.degree,no,no,no,cellular,aug,thu,116,3,999,0,nonexistent,1.4,93.444,-36.1,4.962,5228.1,no
@@ -3065,7 +3065,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 1391,29,admin.,single,basic.9y,unknown,no,no,telephone,may,fri,3481,3,903,0,failure,1.1,94.72285965,-39.55036453,1.555835106,5169.725068,no
 29582,51,technician,married,university.degree,no,yes,no,cellular,sep,thu,4566,6,847,5,failure,-1.1,93.2640394,-49.43884761,3.527518408,4980.230455,yes
 8437,35,blue-collar,single,basic.6y,unknown,yes,no,telephone,jun,fri,55,4,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
-25964,45,admin.,divorced,university.degree,no,no,no,cellular,may,mon,507,1,999,0,nonexistent,-1.8,92.893,-46.2,1.244,5099.1,no
+25964,45,admin.,divorced,university.degree,no,no,no,cellular,may,mon,507,1,999,0,nonexistent,-1.8,92.893,-46.2,1.244,5099.1,yes
 8797,30,entrepreneur,divorced,university.degree,no,no,no,telephone,jun,fri,101,5,999,0,nonexistent,1.4,94.465,-41.8,4.947,5228.1,no
 18943,37,entrepreneur,married,university.degree,no,no,no,cellular,nov,wed,184,4,999,0,nonexistent,-0.1,93.2,-42.0,4.12,5195.8,no
 5067,46,admin.,divorced,basic.9y,no,yes,no,telephone,may,thu,1857,2,668,4,failure,1.1,93.51823863,-34.96989408,4.312436334,5180.321936,no
@@ -3109,7 +3109,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 4309,41,services,married,high.school,no,yes,no,telephone,may,tue,59,4,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 27166,29,admin.,single,high.school,no,no,no,cellular,aug,fri,130,1,999,0,nonexistent,-2.9,92.201,-31.4,0.881,5076.2,no
 15000,38,management,married,university.degree,unknown,no,yes,cellular,aug,wed,1905,1,62,4,nonexistent,1.4,92.68325422,-36.41191563,4.092130655,5041.123939,no
-4412,34,unemployed,unknown,basic.6y,unknown,unknown,no,cellular,nov,thu,1420,46,80,0,failure,1.1,93.96496694,-44.60766816,4.672688563,5187.249496,no
+4412,34,unemployed,unknown,basic.6y,unknown,unknown,no,cellular,nov,thu,1420,46,80,0,failure,1.1,93.96496694,-44.60766816,4.672688563,5187.249496,yes
 24946,60,management,unknown,basic.9y,unknown,no,no,cellular,sep,fri,134,41,999,0,nonexistent,-1.8,92.893,-46.2,1.281,5099.1,yes
 13537,34,services,married,high.school,no,yes,no,cellular,jul,thu,156,1,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 14780,41,self-employed,married,university.degree,no,yes,no,cellular,aug,tue,688,1,23,4,failure,1.4,92.2591841,-30.09597631,0.659588871,5021.390359,no
@@ -3134,7 +3134,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 19435,37,blue-collar,divorced,professional.course,no,yes,no,cellular,nov,thu,4131,1,693,2,failure,-0.1,93.20029421,-36.88146482,1.060605381,4967.795877,no
 23938,27,unknown,single,high.school,unknown,yes,yes,cellular,may,mon,628,1,999,0,nonexistent,-1.8,92.893,-46.2,1.299,5099.1,no
 3840,43,admin.,divorced,high.school,no,no,no,telephone,may,fri,198,2,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
-26807,26,management,single,university.degree,no,yes,no,cellular,jun,fri,3269,2,376,0,failure,-2.9,94.33473611,-43.64798266,3.908724398,4981.001136,yes
+26807,26,management,single,university.degree,no,yes,no,cellular,jun,fri,3269,2,376,0,failure,-2.9,94.33473611,-43.64798266,3.908724398,4981.001136,no
 18589,35,admin.,married,university.degree,no,yes,no,cellular,nov,wed,3919,1,198,0,failure,-0.1,93.60741954,-50.47173924,3.282388407,5050.548799,no
 10516,26,services,single,basic.6y,no,no,no,cellular,jul,tue,184,2,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 21032,28,technician,married,basic.9y,no,no,no,cellular,apr,thu,442,1,999,0,nonexistent,-1.8,93.075,-47.1,1.41,5099.1,no
@@ -3146,7 +3146,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11314,24,blue-collar,single,basic.9y,no,no,no,cellular,jul,fri,191,3,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,no
 4961,50,technician,married,professional.course,unknown,no,no,telephone,may,wed,239,4,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 9946,32,services,divorced,high.school,no,yes,no,cellular,jul,thu,1645,1,225,5,success,1.4,94.24206586,-39.9555629,1.149773204,5145.870735,no
-16246,55,blue-collar,married,basic.4y,no,yes,no,cellular,aug,thu,764,10,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,yes
+16246,55,blue-collar,married,basic.4y,no,yes,no,cellular,aug,thu,764,10,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 9157,27,admin.,married,high.school,no,yes,no,cellular,jul,mon,3487,2,51,6,success,1.4,94.60371419,-41.84882683,1.689004825,5053.25122,no
 26939,60,admin.,married,university.degree,no,yes,no,telephone,jul,thu,363,1,999,0,nonexistent,-2.9,92.469,-33.6,1.072,5076.2,no
 26544,24,unknown,single,university.degree,no,no,no,cellular,jun,tue,263,1,999,1,failure,-2.9,92.963,-40.8,1.262,5076.2,yes
@@ -3275,7 +3275,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 8406,41,blue-collar,married,professional.course,no,yes,no,telephone,jun,fri,591,6,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 19775,33,blue-collar,single,basic.4y,no,no,no,cellular,nov,fri,60,1,999,0,nonexistent,-0.1,93.2,-42.0,4.021,5195.8,no
 13872,46,technician,married,professional.course,no,no,no,cellular,aug,tue,1105,1,832,1,nonexistent,1.4,94.61150591,-47.97993972,3.906783609,5026.369884,no
-28923,76,retired,married,basic.4y,no,yes,no,cellular,may,fri,1288,2,627,1,success,-1.8,93.99846371,-37.59782823,0.776117141,5001.230529,no
+28923,76,retired,married,basic.4y,no,yes,no,cellular,may,fri,1288,2,627,1,success,-1.8,93.99846371,-37.59782823,0.776117141,5001.230529,yes
 17985,53,entrepreneur,divorced,university.degree,no,no,no,cellular,nov,mon,93,1,999,0,nonexistent,-0.1,93.2,-42.0,4.191,5195.8,no
 28698,58,services,married,high.school,no,yes,no,cellular,mar,mon,2874,5,638,5,failure,-1.8,92.33755379,-30.26310573,2.852679436,5089.675072,no
 1960,31,admin.,single,university.degree,no,no,no,telephone,may,wed,89,2,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
@@ -3367,7 +3367,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 23811,35,blue-collar,married,basic.6y,no,no,no,cellular,may,mon,1783,1,268,3,nonexistent,-1.8,93.76735636,-38.20290624,4.583594638,5137.649013,no
 13266,23,services,single,high.school,no,no,yes,cellular,jul,wed,207,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 15397,43,management,married,university.degree,no,no,no,cellular,aug,mon,121,5,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
-29284,31,admin.,married,high.school,no,yes,yes,cellular,jul,fri,4780,4,666,0,success,-1.7,92.5260861,-34.45903376,1.43790579,5077.11072,yes
+29284,31,admin.,married,high.school,no,yes,yes,cellular,jul,fri,4780,4,666,0,success,-1.7,92.5260861,-34.45903376,1.43790579,5077.11072,no
 23043,30,technician,single,professional.course,no,yes,no,cellular,may,thu,512,1,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
 8532,50,admin.,married,basic.9y,no,no,no,telephone,jun,fri,116,3,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 9099,45,services,divorced,high.school,no,no,no,cellular,jul,mon,295,1,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
@@ -3453,7 +3453,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2468,31,admin.,single,high.school,no,no,no,telephone,may,thu,1402,22,941,2,nonexistent,1.1,94.59122311,-32.87016102,3.166144227,5082.849041,no
 7224,47,blue-collar,married,basic.4y,unknown,yes,yes,telephone,jun,wed,81,3,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 415,42,admin.,married,high.school,no,no,no,telephone,may,tue,4125,3,243,5,nonexistent,1.1,92.81419494,-40.45501262,2.349898938,5054.924919,no
-9502,42,unemployed,unknown,high.school,unknown,yes,no,cellular,apr,thu,4491,19,368,4,success,1.4,94.55052134,-41.59708354,4.443897545,5020.096846,no
+9502,42,unemployed,unknown,high.school,unknown,yes,no,cellular,apr,thu,4491,19,368,4,success,1.4,94.55052134,-41.59708354,4.443897545,5020.096846,yes
 9514,33,admin.,married,high.school,no,no,no,cellular,jul,wed,254,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 19123,31,services,married,high.school,no,no,yes,cellular,nov,thu,49,1,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 14228,36,admin.,married,university.degree,unknown,yes,no,cellular,aug,thu,94,1,999,0,nonexistent,1.4,93.444,-36.1,4.968,5228.1,no
@@ -3476,7 +3476,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 13138,28,self-employed,married,university.degree,no,yes,no,cellular,jul,wed,229,1,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 21385,46,blue-collar,single,basic.4y,no,unknown,unknown,cellular,apr,fri,163,2,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,no
 23486,37,self-employed,married,university.degree,no,yes,no,cellular,may,fri,279,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
-7862,36,blue-collar,single,high.school,no,yes,no,telephone,jun,wed,835,1,999,0,nonexistent,1.4,94.465,-41.8,4.962,5228.1,yes
+7862,36,blue-collar,single,high.school,no,yes,no,telephone,jun,wed,835,1,999,0,nonexistent,1.4,94.465,-41.8,4.962,5228.1,no
 19670,42,blue-collar,single,professional.course,no,no,no,cellular,nov,fri,249,4,999,0,nonexistent,-0.1,93.2,-42.0,4.021,5195.8,no
 13027,57,admin.,divorced,university.degree,unknown,yes,no,telephone,jul,tue,2486,4,149,1,success,1.4,93.99285838,-42.29303592,4.324106457,5118.279942,no
 28515,43,blue-collar,married,basic.9y,no,yes,no,cellular,dec,tue,1074,2,28,1,success,-3.0,93.46082907,-31.5532713,3.046891964,5010.749407,no
@@ -3516,7 +3516,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 18493,39,unemployed,married,basic.9y,unknown,no,yes,cellular,nov,tue,2493,1,174,2,nonexistent,-0.1,94.21973065,-37.50772834,2.248261898,5150.552665,no
 3997,28,admin.,married,university.degree,no,no,no,telephone,may,mon,52,3,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 16092,49,blue-collar,married,high.school,unknown,no,yes,cellular,aug,thu,147,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
-23150,46,unknown,married,illiterate,unknown,yes,no,cellular,sep,tue,3111,32,222,5,failure,-1.8,92.99924404,-38.92229725,3.522976079,5189.374855,no
+23150,46,unknown,married,illiterate,unknown,yes,no,cellular,sep,tue,3111,32,222,5,failure,-1.8,92.99924404,-38.92229725,3.522976079,5189.374855,yes
 25443,51,technician,married,basic.9y,no,yes,no,cellular,may,fri,1568,1,555,0,success,-1.8,94.02346319,-45.00957069,1.489041626,5075.250455,no
 17905,34,self-employed,married,university.degree,no,yes,no,cellular,nov,mon,1877,2,64,2,failure,-0.1,93.83637956,-39.96753294,3.751328857,5162.927477,no
 20615,55,admin.,divorced,university.degree,no,yes,no,cellular,apr,wed,628,1,999,1,failure,-1.8,93.075,-47.1,1.445,5099.1,no
@@ -3600,14 +3600,14 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 27597,78,retired,married,basic.4y,no,no,yes,cellular,aug,wed,3692,1,767,6,success,-2.9,93.00980712,-40.84552499,3.234012772,5062.636534,yes
 20893,48,blue-collar,married,basic.4y,no,no,yes,cellular,apr,thu,220,1,999,0,nonexistent,-1.8,93.075,-47.1,1.41,5099.1,no
 7072,34,technician,married,basic.6y,unknown,no,no,telephone,jun,mon,478,2,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,no
-21484,88,housemaid,divorced,basic.9y,no,no,unknown,cellular,dec,tue,421,51,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,no
+21484,88,housemaid,divorced,basic.9y,no,no,unknown,cellular,dec,tue,421,51,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,yes
 421,24,technician,single,professional.course,no,no,yes,telephone,may,tue,140,2,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 1462,42,management,married,university.degree,unknown,yes,no,telephone,may,mon,181,4,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 4000,49,technician,married,basic.9y,no,yes,no,telephone,may,mon,668,6,949,4,failure,1.1,93.58991046,-29.6289015,3.540573132,5000.725236,no
 22499,38,technician,married,university.degree,no,no,no,telephone,may,tue,2162,2,403,6,success,-1.8,92.87099696,-36.48542411,1.554672514,5062.413518,no
 3433,42,admin.,married,high.school,no,yes,no,telephone,may,wed,63,1,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
 14419,50,blue-collar,married,basic.4y,unknown,yes,no,cellular,aug,fri,80,1,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
-27557,70,blue-collar,unknown,basic.4y,unknown,no,unknown,cellular,aug,wed,232,7,999,0,nonexistent,-2.9,92.201,-31.4,0.843,5076.2,no
+27557,70,blue-collar,unknown,basic.4y,unknown,no,unknown,cellular,aug,wed,232,7,999,0,nonexistent,-2.9,92.201,-31.4,0.843,5076.2,yes
 11448,32,admin.,single,high.school,unknown,yes,no,cellular,jul,mon,141,2,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
 7442,49,retired,married,basic.4y,no,no,no,telephone,jun,mon,1503,2,111,3,success,1.4,93.06986694,-38.63009859,1.075425569,5098.113493,no
 8133,40,entrepreneur,married,university.degree,unknown,unknown,unknown,telephone,jun,thu,91,1,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,no
@@ -3724,13 +3724,13 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 17348,36,admin.,single,university.degree,no,no,yes,cellular,aug,fri,69,2,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 2813,41,self-employed,married,high.school,unknown,no,no,telephone,may,fri,4473,4,432,4,failure,1.1,92.48013519,-46.35197398,2.968649905,5192.652414,no
 21063,65,blue-collar,unknown,high.school,yes,yes,yes,telephone,jun,fri,222,17,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,no
-29967,42,admin.,married,university.degree,no,yes,no,cellular,nov,thu,419,3,999,1,failure,-1.1,94.767,-50.8,1.041,4963.6,no
+29967,42,admin.,married,university.degree,no,yes,no,cellular,nov,thu,419,3,999,1,failure,-1.1,94.767,-50.8,1.041,4963.6,yes
 22432,34,blue-collar,married,basic.9y,no,no,no,cellular,may,tue,2304,2,773,4,success,-1.8,94.11525253,-39.29811069,1.873148626,4984.613731,no
 14150,47,blue-collar,married,basic.4y,no,yes,no,cellular,aug,thu,4705,1,985,5,failure,1.4,92.62424499,-34.69225611,4.782771229,5116.527189,no
 24884,31,services,single,high.school,no,no,no,cellular,may,wed,811,2,986,3,nonexistent,-1.8,92.2046041,-50.68497766,1.848449063,5079.442223,no
 18643,32,admin.,single,university.degree,no,no,no,telephone,nov,wed,4811,3,3,2,nonexistent,-0.1,93.66613733,-40.65787149,4.883741318,5163.095146,no
 18206,38,admin.,single,high.school,no,yes,no,cellular,nov,tue,90,1,999,0,nonexistent,-0.1,93.2,-42.0,4.153,5195.8,no
-21180,55,admin.,married,high.school,no,no,no,cellular,apr,fri,4911,3,427,0,success,-1.8,93.45504814,-41.74236905,2.514655535,5223.167432,no
+21180,55,admin.,married,high.school,no,no,no,cellular,apr,fri,4911,3,427,0,success,-1.8,93.45504814,-41.74236905,2.514655535,5223.167432,yes
 17266,49,services,divorced,high.school,no,yes,no,cellular,aug,thu,99,17,999,0,nonexistent,1.4,93.444,-36.1,4.962,5228.1,no
 2448,43,technician,divorced,professional.course,no,no,no,telephone,may,thu,644,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
 14535,57,retired,married,basic.9y,unknown,yes,no,cellular,aug,fri,3829,3,15,6,failure,1.4,92.59227626,-43.64186583,1.230682047,4969.117921,no
@@ -3752,7 +3752,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2080,35,admin.,married,high.school,no,no,no,telephone,may,wed,100,3,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
 5764,37,services,married,high.school,no,no,no,telephone,jun,mon,3937,1,630,2,failure,1.4,94.28135194,-37.0327637,1.11720872,5021.019809,no
 1542,28,student,single,university.degree,unknown,yes,no,telephone,may,mon,225,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
-26465,36,self-employed,married,university.degree,no,no,yes,cellular,jun,mon,284,1,999,1,failure,-2.9,92.963,-40.8,1.266,5076.2,no
+26465,36,self-employed,married,university.degree,no,no,yes,cellular,jun,mon,284,1,999,1,failure,-2.9,92.963,-40.8,1.266,5076.2,yes
 15010,57,admin.,single,university.degree,unknown,yes,yes,cellular,aug,wed,143,1,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 22318,39,blue-collar,single,basic.9y,no,yes,yes,cellular,may,mon,78,3,3,1,success,-1.8,92.893,-46.2,1.354,5099.1,no
 17973,52,entrepreneur,married,university.degree,no,yes,no,cellular,nov,mon,199,2,817,2,nonexistent,-0.1,94.40223941,-28.24510357,1.963152825,4987.686869,no
@@ -3816,7 +3816,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 10409,28,admin.,married,university.degree,no,no,no,cellular,jul,mon,140,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 25728,28,self-employed,married,basic.9y,no,yes,no,cellular,may,fri,1717,5,547,3,nonexistent,-1.8,92.74387246,-45.96154912,1.680918781,5091.562829,no
 29660,82,retired,married,university.degree,unknown,no,no,cellular,sep,mon,1106,3,583,1,nonexistent,-1.1,92.7254641,-45.60043615,1.036443884,5112.480124,no
-29784,57,admin.,married,university.degree,no,unknown,unknown,cellular,oct,wed,1176,2,485,0,failure,-1.1,93.92936593,-32.08632605,1.691070783,5136.767904,no
+29784,57,admin.,married,university.degree,no,unknown,unknown,cellular,oct,wed,1176,2,485,0,failure,-1.1,93.92936593,-32.08632605,1.691070783,5136.767904,yes
 14934,46,admin.,married,high.school,no,yes,no,cellular,aug,tue,2349,3,216,5,nonexistent,1.4,94.3901954,-27.23234126,3.037394596,4982.137837,no
 22288,49,unemployed,married,high.school,no,yes,no,telephone,may,mon,1289,1,803,1,failure,-1.8,93.81623258,-34.16742004,4.170435397,5142.369153,no
 27502,66,retired,married,basic.4y,no,yes,yes,telephone,aug,wed,2716,3,87,3,nonexistent,-2.9,92.51830349,-32.64186798,1.678104689,5038.319618,no
@@ -3885,9 +3885,9 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 14511,48,entrepreneur,married,university.degree,no,no,no,cellular,aug,fri,4618,1,970,1,success,1.4,92.59909483,-39.63997943,4.056425341,5016.822542,no
 7898,41,admin.,divorced,high.school,no,yes,no,telephone,jun,wed,1627,1,530,5,failure,1.4,94.06813492,-47.63899558,2.422703288,5175.221012,no
 3592,53,self-employed,married,university.degree,no,yes,no,telephone,may,wed,1672,3,540,5,failure,1.1,93.58986118,-43.55236635,4.775854624,5026.564239,no
-28073,68,retired,married,basic.4y,no,yes,no,cellular,oct,tue,102,1,6,2,success,-3.4,92.431,-26.9,0.728,5017.5,no
+28073,68,retired,married,basic.4y,no,yes,no,cellular,oct,tue,102,1,6,2,success,-3.4,92.431,-26.9,0.728,5017.5,yes
 26083,25,blue-collar,single,basic.9y,no,unknown,unknown,cellular,may,mon,10,2,999,0,nonexistent,-1.8,92.893,-46.2,1.244,5099.1,no
-14554,53,admin.,divorced,high.school,no,no,yes,cellular,aug,fri,1567,3,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,yes
+14554,53,admin.,divorced,high.school,no,no,yes,cellular,aug,fri,1567,3,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
 16994,53,blue-collar,married,unknown,no,yes,no,cellular,aug,wed,1544,3,190,3,failure,1.4,92.79369706,-33.42685228,1.494077975,5046.710587,no
 3791,51,blue-collar,married,basic.4y,no,yes,no,telephone,may,fri,153,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 20768,24,services,single,high.school,no,yes,no,telephone,apr,tue,104,1,999,1,failure,-1.8,93.075,-47.1,1.423,5099.1,no
@@ -3897,7 +3897,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 5866,36,admin.,married,university.degree,no,yes,no,telephone,jun,mon,115,2,999,0,nonexistent,1.4,94.465,-41.8,4.865,5228.1,no
 7668,47,housemaid,single,basic.4y,no,no,no,telephone,jun,tue,1352,1,955,2,failure,1.4,92.83495716,-46.79931429,3.182068691,5047.259055,no
 12535,51,services,married,high.school,unknown,yes,no,cellular,jul,fri,2123,1,866,0,failure,1.4,92.83495575,-49.99704877,3.95592653,5148.259155,no
-26476,25,admin.,single,university.degree,no,yes,no,cellular,jun,tue,678,2,206,2,failure,-2.9,92.91971859,-29.78921021,1.298867375,4975.091451,no
+26476,25,admin.,single,university.degree,no,yes,no,cellular,jun,tue,678,2,206,2,failure,-2.9,92.91971859,-29.78921021,1.298867375,4975.091451,yes
 7205,45,housemaid,single,high.school,no,unknown,yes,cellular,may,mon,105,21,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 28790,44,admin.,married,high.school,no,yes,no,cellular,apr,thu,3179,4,252,6,nonexistent,-1.8,92.37853351,-40.0530689,1.863835913,4970.596166,no
 12771,48,self-employed,married,high.school,unknown,yes,yes,cellular,jul,mon,88,3,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
@@ -3935,7 +3935,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 24269,31,blue-collar,married,basic.9y,no,yes,no,cellular,may,tue,4561,7,480,3,success,-1.8,93.80659587,-37.26741915,4.867098381,5201.978836,no
 22042,30,admin.,single,university.degree,no,no,no,cellular,apr,thu,368,1,999,0,nonexistent,-1.8,93.075,-47.1,1.365,5099.1,no
 12709,40,blue-collar,married,basic.4y,no,yes,yes,telephone,jul,mon,342,5,996,0,failure,1.4,93.47356,-35.83165127,3.80966613,5063.791545,no
-11603,19,unemployed,single,professional.course,unknown,no,unknown,cellular,nov,wed,54,40,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
+11603,19,unemployed,single,professional.course,unknown,no,unknown,cellular,nov,wed,54,40,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,yes
 1216,46,unknown,married,basic.4y,unknown,no,no,telephone,may,fri,232,1,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 2391,52,technician,married,high.school,no,yes,no,telephone,may,thu,355,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
 5426,30,blue-collar,married,basic.9y,unknown,no,no,telephone,may,fri,409,1,986,1,success,1.1,93.39801377,-31.48627956,4.792109408,5199.881782,no
@@ -3953,7 +3953,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 21483,56,blue-collar,married,basic.6y,no,yes,yes,cellular,apr,mon,1332,1,541,1,failure,-1.8,92.37943051,-41.61139449,3.825681898,5137.262363,no
 6317,40,admin.,divorced,basic.6y,unknown,no,yes,telephone,jun,wed,170,3,999,0,nonexistent,1.4,94.465,-41.8,4.864,5228.1,no
 25468,29,blue-collar,divorced,high.school,no,no,no,cellular,may,fri,760,1,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,yes
-5016,36,blue-collar,married,basic.9y,no,no,no,telephone,may,thu,620,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,yes
+5016,36,blue-collar,married,basic.9y,no,no,no,telephone,may,thu,620,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
 12746,53,services,married,high.school,unknown,yes,no,cellular,jul,mon,3556,1,939,3,nonexistent,1.4,93.08153106,-40.55951432,2.174679313,4977.358005,no
 27360,40,admin.,married,high.school,no,no,no,cellular,aug,thu,468,2,512,2,nonexistent,-2.9,93.77826499,-28.34785831,3.394438134,5190.11922,no
 425,59,blue-collar,married,basic.4y,no,yes,no,telephone,may,tue,2408,2,955,4,nonexistent,1.1,92.92115583,-46.75258533,2.383290917,5119.256622,no
@@ -3969,7 +3969,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 10019,42,admin.,single,high.school,no,yes,no,cellular,jul,thu,4226,4,768,4,nonexistent,1.4,94.34218964,-29.23194971,4.375305403,5032.541399,no
 17280,53,self-employed,married,university.degree,no,yes,yes,telephone,aug,thu,3353,2,421,2,nonexistent,1.4,93.84670289,-35.8174168,1.406425395,4987.949489,no
 18612,48,admin.,single,university.degree,no,yes,no,cellular,nov,wed,473,1,999,0,nonexistent,-0.1,93.2,-42.0,4.12,5195.8,no
-29947,46,admin.,single,university.degree,no,no,yes,cellular,nov,tue,173,1,999,1,failure,-1.1,94.767,-50.8,1.046,4963.6,no
+29947,46,admin.,single,university.degree,no,no,yes,cellular,nov,tue,173,1,999,1,failure,-1.1,94.767,-50.8,1.046,4963.6,yes
 27809,70,retired,married,high.school,no,yes,no,cellular,sep,fri,4231,1,147,0,nonexistent,-3.4,92.2656664,-49.02440896,3.666705533,4973.193853,no
 21398,40,services,married,high.school,no,no,no,cellular,apr,fri,4370,6,446,6,failure,-1.8,92.68778244,-33.96987152,3.605415539,5141.436282,no
 16274,64,unknown,divorced,illiterate,no,no,yes,telephone,may,fri,36,30,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,yes
@@ -3995,7 +3995,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11678,35,services,single,high.school,unknown,no,no,cellular,jul,tue,16,1,559,1,success,1.4,92.40192321,-47.01733317,1.530202994,5100.089867,no
 1586,39,technician,married,university.degree,no,yes,no,telephone,may,mon,2947,3,194,5,success,1.1,94.65244903,-50.27723039,2.559482847,4996.52717,no
 7147,47,management,married,basic.4y,unknown,no,no,telephone,jun,wed,4179,1,383,2,success,1.4,92.3278996,-41.9964032,3.03372866,5184.228218,no
-16264,57,unemployed,unknown,university.degree,yes,no,yes,cellular,sep,mon,300,45,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
+16264,57,unemployed,unknown,university.degree,yes,no,yes,cellular,sep,mon,300,45,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,yes
 2866,46,admin.,divorced,university.degree,no,no,no,telephone,may,mon,3420,3,849,1,failure,1.1,94.38830319,-27.71746005,2.723742473,5104.458464,no
 13995,34,admin.,married,university.degree,no,no,no,cellular,aug,wed,224,1,999,0,nonexistent,1.4,93.444,-36.1,4.967,5228.1,no
 10878,29,technician,single,university.degree,no,no,yes,telephone,jul,wed,357,7,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,no
@@ -4051,7 +4051,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 19354,32,technician,married,professional.course,no,no,no,cellular,nov,thu,147,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 24667,35,admin.,single,high.school,no,no,no,cellular,may,wed,4533,2,153,6,failure,-1.8,92.98013903,-49.96697318,3.791080949,4993.230375,no
 4843,31,blue-collar,married,basic.4y,no,yes,no,telephone,may,wed,1731,2,940,3,success,1.1,93.86208103,-49.80832263,1.85084629,5070.055052,no
-29454,41,admin.,divorced,high.school,no,yes,yes,cellular,aug,thu,4620,3,26,4,failure,-1.7,92.31057067,-50.25118126,4.508371471,5111.761897,no
+29454,41,admin.,divorced,high.school,no,yes,yes,cellular,aug,thu,4620,3,26,4,failure,-1.7,92.31057067,-50.25118126,4.508371471,5111.761897,yes
 2201,30,admin.,married,university.degree,no,yes,no,telephone,may,wed,4226,4,776,4,success,1.1,93.97144448,-34.16060462,1.739182674,5194.608964,no
 17062,56,retired,married,basic.6y,unknown,yes,no,cellular,aug,wed,2232,4,977,0,failure,1.4,93.9717293,-40.32763711,1.842469231,5177.268665,no
 18979,42,blue-collar,married,basic.4y,no,yes,no,cellular,nov,wed,140,3,999,0,nonexistent,-0.1,93.2,-42.0,4.12,5195.8,no
@@ -4059,7 +4059,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 27906,33,blue-collar,married,basic.4y,no,yes,no,telephone,oct,mon,99,3,3,1,success,-3.4,92.431,-26.9,0.743,5017.5,no
 25659,60,admin.,divorced,high.school,unknown,yes,no,cellular,may,fri,99,1,999,1,failure,-1.8,92.893,-46.2,1.25,5099.1,no
 2086,49,blue-collar,married,basic.9y,unknown,yes,no,telephone,may,wed,170,2,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
-10400,34,admin.,unknown,unknown,no,yes,yes,cellular,oct,wed,111,33,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
+10400,34,admin.,unknown,unknown,no,yes,yes,cellular,oct,wed,111,33,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,yes
 10693,27,admin.,single,university.degree,no,yes,no,cellular,jul,tue,749,5,831,5,success,1.4,92.4474284,-41.49471001,0.810589932,5051.237238,no
 1210,37,blue-collar,married,basic.9y,no,yes,yes,telephone,may,fri,135,1,205,4,nonexistent,1.1,92.45281675,-34.51040082,1.893343718,5226.502358,no
 2700,37,blue-collar,single,basic.9y,unknown,no,no,telephone,may,fri,1230,3,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
@@ -4112,8 +4112,8 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11328,22,student,single,high.school,no,no,yes,cellular,jul,fri,2494,2,398,5,nonexistent,1.4,93.68022955,-36.61054487,2.017246487,5002.260386,no
 5169,35,technician,married,university.degree,unknown,no,no,telephone,may,thu,3333,1,600,1,nonexistent,1.1,92.76851843,-41.09009057,2.137826149,5081.089859,no
 3692,37,blue-collar,single,basic.9y,no,no,no,telephone,may,fri,136,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
-16068,34,housemaid,single,high.school,yes,yes,no,telephone,jul,tue,221,52,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,yes
-29536,72,retired,divorced,university.degree,no,no,no,cellular,aug,mon,220,16,999,1,failure,-1.7,94.027,-38.3,0.891,4991.6,no
+16068,34,housemaid,single,high.school,yes,yes,no,telephone,jul,tue,221,52,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
+29536,72,retired,divorced,university.degree,no,no,no,cellular,aug,mon,220,16,999,1,failure,-1.7,94.027,-38.3,0.891,4991.6,yes
 29808,33,services,single,university.degree,no,yes,no,cellular,oct,mon,1305,2,488,3,nonexistent,-1.1,93.4191466,-44.44922501,1.457536069,5171.196263,no
 16030,33,technician,married,high.school,no,yes,no,cellular,aug,wed,129,1,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
 22773,60,student,married,high.school,yes,yes,yes,telephone,dec,wed,164,18,999,0,nonexistent,-1.8,92.893,-46.2,1.334,5099.1,no
@@ -4143,7 +4143,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 10193,42,technician,divorced,university.degree,no,no,no,cellular,jul,fri,2879,2,179,4,nonexistent,1.4,93.76952918,-43.38770116,0.709378684,5000.018028,no
 27206,37,blue-collar,married,basic.9y,no,no,no,cellular,aug,mon,213,1,999,0,nonexistent,-2.9,92.201,-31.4,0.884,5076.2,no
 13462,44,technician,married,professional.course,no,no,no,cellular,jul,thu,2367,1,103,6,nonexistent,1.4,94.54278108,-46.73302592,3.951000376,5114.005852,no
-7358,66,student,single,high.school,no,no,no,telephone,mar,thu,3072,50,370,0,failure,1.4,93.60606693,-34.64614837,2.797148137,5083.187447,no
+7358,66,student,single,high.school,no,no,no,telephone,mar,thu,3072,50,370,0,failure,1.4,93.60606693,-34.64614837,2.797148137,5083.187447,yes
 14135,47,management,married,university.degree,no,yes,yes,cellular,aug,wed,135,2,999,0,nonexistent,1.4,93.444,-36.1,4.967,5228.1,no
 6284,36,blue-collar,single,basic.9y,no,unknown,unknown,telephone,jun,wed,1708,7,5,6,success,1.4,94.41769165,-40.65417937,4.541062347,5000.395016,no
 17953,42,technician,married,professional.course,no,yes,yes,cellular,nov,mon,2408,2,643,2,success,-0.1,93.64480356,-39.8411826,3.940647198,5173.701986,no
@@ -4500,7 +4500,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 26598,58,management,married,basic.4y,no,yes,no,cellular,jun,wed,86,1,999,0,nonexistent,-2.9,92.963,-40.8,1.26,5076.2,no
 6141,41,blue-collar,married,basic.4y,unknown,no,no,telephone,jun,tue,88,4,999,0,nonexistent,1.4,94.465,-41.8,4.864,5228.1,no
 14359,51,blue-collar,married,basic.4y,unknown,yes,yes,cellular,aug,fri,513,1,118,2,success,1.4,94.60678192,-46.0761943,4.691590112,5171.070033,no
-26739,85,technician,unknown,professional.course,yes,yes,no,cellular,sep,thu,408,23,909,5,failure,-2.9,93.58962365,-48.22635022,1.730738002,5023.481132,no
+26739,85,technician,unknown,professional.course,yes,yes,no,cellular,sep,thu,408,23,909,5,failure,-2.9,93.58962365,-48.22635022,1.730738002,5023.481132,yes
 18138,37,blue-collar,divorced,basic.6y,no,yes,yes,cellular,nov,tue,963,1,999,1,failure,-0.1,93.2,-42.0,4.153,5195.8,no
 23940,31,blue-collar,married,basic.6y,no,no,no,cellular,may,mon,24,1,104,4,success,-1.8,93.96491442,-42.96141635,3.945100521,5112.202971,no
 9262,34,admin.,married,professional.course,no,no,yes,cellular,jul,tue,147,1,695,3,success,1.4,93.89973846,-36.12392671,4.544472523,5038.300581,no
@@ -4531,7 +4531,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 15442,35,technician,married,professional.course,no,yes,no,telephone,aug,mon,4369,1,136,0,success,1.4,93.76424905,-36.03644776,1.887623822,5043.986236,no
 15577,35,entrepreneur,divorced,professional.course,unknown,no,no,cellular,aug,tue,255,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 29927,36,retired,married,basic.4y,unknown,unknown,no,cellular,dec,fri,301,42,999,2,failure,-1.1,94.767,-50.8,1.049,4963.6,yes
-19787,40,management,married,university.degree,no,yes,yes,cellular,nov,fri,957,1,999,1,failure,-0.1,93.2,-42.0,4.021,5195.8,yes
+19787,40,management,married,university.degree,no,yes,yes,cellular,nov,fri,957,1,999,1,failure,-0.1,93.2,-42.0,4.021,5195.8,no
 1870,31,admin.,married,high.school,unknown,yes,no,telephone,may,tue,101,13,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 13296,51,management,married,basic.9y,no,no,no,cellular,jul,wed,727,3,946,0,failure,1.4,93.73330771,-35.87212202,4.553197499,4970.909724,no
 21001,52,retired,married,basic.4y,unknown,yes,yes,cellular,apr,thu,449,2,999,0,nonexistent,-1.8,93.075,-47.1,1.41,5099.1,no
@@ -4634,7 +4634,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 20378,80,retired,married,basic.4y,unknown,no,no,cellular,mar,mon,95,1,999,0,nonexistent,-1.8,92.843,-50.0,1.52,5099.1,no
 22503,33,admin.,single,high.school,no,no,no,telephone,may,tue,4753,1,767,5,failure,-1.8,94.46919775,-28.75341052,2.998507669,5088.763565,no
 16775,48,technician,married,university.degree,no,yes,no,cellular,aug,tue,64,1,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
-23331,28,admin.,single,high.school,unknown,no,no,cellular,may,thu,1391,2,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,yes
+23331,28,admin.,single,high.school,unknown,no,no,cellular,may,thu,1391,2,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
 15613,33,technician,single,university.degree,no,no,no,cellular,aug,tue,134,6,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 16149,51,admin.,married,university.degree,no,yes,no,cellular,aug,thu,119,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 22776,39,admin.,single,high.school,no,no,no,cellular,may,wed,158,2,999,0,nonexistent,-1.8,92.893,-46.2,1.334,5099.1,no
@@ -4647,7 +4647,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 20276,88,retired,divorced,basic.4y,no,yes,yes,cellular,mar,wed,103,3,999,0,nonexistent,-1.8,92.843,-50.0,1.663,5099.1,yes
 25641,37,services,married,high.school,no,no,no,cellular,may,fri,228,2,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,no
 22293,43,admin.,married,professional.course,no,yes,yes,cellular,may,mon,238,3,999,0,nonexistent,-1.8,92.893,-46.2,1.354,5099.1,no
-4232,95,technician,divorced,basic.4y,no,yes,no,cellular,nov,tue,291,41,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
+4232,95,technician,divorced,basic.4y,no,yes,no,cellular,nov,tue,291,41,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,yes
 7600,41,technician,married,university.degree,no,yes,no,telephone,jun,tue,153,4,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,no
 28883,38,entrepreneur,married,professional.course,no,no,no,cellular,may,mon,269,5,3,2,success,-1.8,93.876,-40.0,0.682,5008.7,yes
 19270,36,management,married,high.school,unknown,yes,no,cellular,nov,thu,371,1,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
@@ -4716,7 +4716,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 21867,37,technician,single,university.degree,no,yes,no,cellular,apr,mon,6,2,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,no
 20246,38,technician,married,university.degree,no,no,no,cellular,mar,tue,350,2,999,2,failure,-1.8,92.843,-50.0,1.687,5099.1,yes
 2308,44,blue-collar,married,basic.4y,unknown,no,no,telephone,may,thu,139,2,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
-28227,76,retired,single,basic.4y,no,no,no,cellular,nov,mon,1726,4,817,2,nonexistent,-3.4,92.61477217,-40.59518124,4.421166851,5019.284901,no
+28227,76,retired,single,basic.4y,no,no,no,cellular,nov,mon,1726,4,817,2,nonexistent,-3.4,92.61477217,-40.59518124,4.421166851,5019.284901,yes
 26579,53,student,unknown,high.school,unknown,no,unknown,telephone,apr,tue,262,27,3,1,success,-2.9,92.963,-40.8,1.26,5076.2,yes
 4185,40,blue-collar,married,high.school,no,no,yes,telephone,may,mon,150,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 22812,27,admin.,married,high.school,no,no,yes,cellular,may,wed,251,1,999,0,nonexistent,-1.8,92.893,-46.2,1.334,5099.1,no
@@ -4744,7 +4744,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 15407,49,unemployed,married,high.school,no,yes,no,cellular,aug,mon,1495,4,595,0,failure,1.4,93.44749638,-43.37996041,1.627384068,5060.959934,no
 6826,31,technician,married,university.degree,no,yes,no,telephone,jun,fri,469,3,129,2,nonexistent,1.4,94.60806254,-40.16559245,4.589933991,5187.697733,no
 24935,38,self-employed,married,basic.9y,no,yes,no,cellular,may,wed,155,2,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,no
-11943,31,retired,divorced,basic.4y,unknown,unknown,no,cellular,jun,mon,2275,52,919,2,failure,1.4,93.44550804,-39.05967613,4.019263642,5172.051227,no
+11943,31,retired,divorced,basic.4y,unknown,unknown,no,cellular,jun,mon,2275,52,919,2,failure,1.4,93.44550804,-39.05967613,4.019263642,5172.051227,yes
 13980,39,technician,single,university.degree,no,no,no,cellular,aug,wed,254,1,999,0,nonexistent,1.4,93.444,-36.1,4.967,5228.1,no
 23432,35,management,single,high.school,no,yes,yes,cellular,may,fri,130,2,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 18727,46,management,divorced,high.school,no,yes,yes,cellular,nov,wed,2180,2,599,1,nonexistent,-0.1,94.099274,-43.26604784,1.081651009,5191.386821,no
@@ -4785,7 +4785,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 5516,39,blue-collar,married,basic.4y,no,yes,no,telephone,may,fri,159,4,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,no
 10308,56,services,divorced,high.school,unknown,yes,no,cellular,jul,mon,1521,2,772,5,failure,1.4,93.47324512,-46.78837943,0.773817562,5176.218287,no
 21283,45,services,single,unknown,no,no,no,cellular,apr,fri,2381,1,295,0,nonexistent,-1.8,94.48513007,-30.40841245,1.070600119,5170.122572,yes
-7911,37,retired,unknown,unknown,yes,yes,unknown,cellular,oct,wed,3538,54,410,5,nonexistent,1.4,92.44058165,-37.11760082,0.688626188,5149.545885,no
+7911,37,retired,unknown,unknown,yes,yes,unknown,cellular,oct,wed,3538,54,410,5,nonexistent,1.4,92.44058165,-37.11760082,0.688626188,5149.545885,yes
 5437,29,admin.,married,university.degree,no,no,no,telephone,may,fri,165,1,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,no
 5937,33,technician,married,university.degree,unknown,yes,no,telephone,jun,tue,2866,1,948,3,nonexistent,1.4,94.16641262,-47.87274691,2.54919491,5207.381897,no
 25119,32,admin.,single,high.school,no,yes,no,cellular,may,thu,149,1,999,1,failure,-1.8,92.893,-46.2,1.266,5099.1,no
@@ -4803,7 +4803,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 14993,64,unemployed,single,unknown,no,yes,unknown,cellular,jun,mon,370,9,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,yes
 23696,43,blue-collar,married,basic.6y,no,no,no,cellular,may,fri,730,5,164,4,failure,-1.8,92.33092475,-27.04957748,3.238732382,5008.377275,no
 7225,45,blue-collar,married,basic.4y,no,no,no,telephone,jun,wed,157,9,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
-27695,33,self-employed,divorced,basic.6y,unknown,no,yes,telephone,jun,fri,834,29,665,6,success,-3.4,94.17336588,-37.42975588,3.103125221,5183.238373,yes
+27695,33,self-employed,divorced,basic.6y,unknown,no,yes,telephone,jun,fri,834,29,665,6,success,-3.4,94.17336588,-37.42975588,3.103125221,5183.238373,no
 6204,37,admin.,divorced,university.degree,no,no,no,telephone,jun,wed,193,2,999,0,nonexistent,1.4,94.465,-41.8,4.864,5228.1,no
 29076,29,admin.,married,high.school,no,yes,no,cellular,jun,wed,605,3,999,0,nonexistent,-1.7,94.055,-39.8,0.727,4991.6,yes
 8111,53,admin.,single,high.school,no,no,no,telephone,jun,thu,1338,1,2,0,success,1.4,93.26571297,-29.43324722,4.581333574,5226.465746,no
@@ -4878,7 +4878,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 1995,39,blue-collar,married,basic.6y,no,no,no,telephone,may,wed,488,12,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
 23165,47,management,married,university.degree,unknown,yes,no,cellular,may,thu,72,1,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
 23834,32,self-employed,single,university.degree,no,yes,no,cellular,may,mon,66,3,999,1,failure,-1.8,92.893,-46.2,1.299,5099.1,no
-27159,28,admin.,married,university.degree,no,yes,no,cellular,aug,fri,3887,1,44,3,failure,-2.9,92.5197543,-40.50817473,3.025771773,5201.768331,no
+27159,28,admin.,married,university.degree,no,yes,no,cellular,aug,fri,3887,1,44,3,failure,-2.9,92.5197543,-40.50817473,3.025771773,5201.768331,yes
 3107,34,services,married,high.school,no,yes,no,telephone,may,tue,656,1,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 29770,32,admin.,single,university.degree,no,yes,no,cellular,oct,fri,460,1,99,4,success,-1.1,93.16652713,-29.06062723,4.343662133,5058.663606,yes
 10315,40,services,married,basic.6y,no,no,no,cellular,jul,mon,247,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
@@ -4989,7 +4989,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2347,45,unknown,married,unknown,no,no,yes,telephone,may,thu,93,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
 11309,26,services,single,high.school,no,yes,no,telephone,jul,fri,4564,3,221,3,failure,1.4,94.00152953,-30.02303624,2.767382044,4998.079537,no
 14136,52,blue-collar,married,basic.4y,unknown,yes,yes,cellular,aug,wed,1112,4,403,5,success,1.4,93.25310189,-34.96278307,2.931059717,5019.176335,no
-8337,32,unknown,divorced,professional.course,unknown,yes,yes,cellular,mar,fri,115,26,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
+8337,32,unknown,divorced,professional.course,unknown,yes,yes,cellular,mar,fri,115,26,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,yes
 11791,51,housemaid,married,basic.9y,no,yes,no,cellular,jul,tue,3080,2,480,5,failure,1.4,94.25669866,-50.33776845,1.058608076,5072.065194,no
 24400,31,blue-collar,single,basic.9y,no,yes,no,cellular,may,tue,22,8,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,no
 19624,34,admin.,married,high.school,no,no,no,cellular,nov,thu,1598,4,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
@@ -5208,7 +5208,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 19356,47,admin.,married,university.degree,no,yes,no,cellular,nov,thu,70,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 18177,49,management,married,basic.9y,no,unknown,unknown,cellular,nov,tue,4486,1,917,6,success,-0.1,92.87383987,-36.24240856,3.638001977,5028.122916,no
 19625,31,blue-collar,married,basic.9y,no,no,no,cellular,nov,thu,693,3,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,yes
-29858,44,admin.,married,university.degree,no,yes,no,cellular,oct,mon,252,1,999,0,nonexistent,-1.1,94.601,-49.5,1.0,4963.6,no
+29858,44,admin.,married,university.degree,no,yes,no,cellular,oct,mon,252,1,999,0,nonexistent,-1.1,94.601,-49.5,1.0,4963.6,yes
 2754,47,blue-collar,divorced,basic.9y,unknown,no,no,telephone,may,fri,1161,3,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
 13688,34,technician,single,university.degree,no,yes,no,cellular,aug,mon,156,1,999,0,nonexistent,1.4,93.444,-36.1,4.97,5228.1,no
 10490,30,technician,married,professional.course,no,yes,yes,telephone,jul,mon,123,4,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
@@ -5223,7 +5223,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11469,28,technician,married,basic.9y,no,yes,no,cellular,jul,mon,1080,4,999,0,nonexistent,1.4,93.918,-42.7,4.96,5228.1,no
 23493,40,blue-collar,married,unknown,unknown,no,no,cellular,may,fri,265,1,999,1,failure,-1.8,92.893,-46.2,1.313,5099.1,no
 23579,58,management,single,university.degree,no,no,no,cellular,may,fri,90,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
-21081,54,retired,married,basic.4y,no,yes,no,cellular,apr,fri,420,1,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,no
+21081,54,retired,married,basic.4y,no,yes,no,cellular,apr,fri,420,1,999,0,nonexistent,-1.8,93.075,-47.1,1.405,5099.1,yes
 16683,57,self-employed,married,university.degree,unknown,no,yes,cellular,aug,mon,131,2,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 2901,41,management,married,university.degree,unknown,yes,no,telephone,may,mon,27,1,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
 27723,28,self-employed,single,basic.9y,no,no,unknown,cellular,oct,thu,167,26,999,1,failure,-3.4,92.379,-29.8,0.788,5017.5,yes
@@ -5271,7 +5271,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 24357,38,services,divorced,basic.6y,no,unknown,unknown,cellular,may,tue,351,1,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,no
 15819,30,admin.,single,university.degree,no,yes,no,cellular,aug,tue,173,9,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 16174,30,technician,single,high.school,no,yes,no,cellular,aug,thu,230,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
-28060,50,management,married,basic.9y,no,no,no,cellular,oct,mon,151,2,6,2,failure,-3.4,92.431,-26.9,0.731,5017.5,no
+28060,50,management,married,basic.9y,no,no,no,cellular,oct,mon,151,2,6,2,failure,-3.4,92.431,-26.9,0.731,5017.5,yes
 11997,39,services,married,unknown,unknown,unknown,unknown,cellular,jul,wed,2490,2,568,4,success,1.4,94.43202427,-39.84833281,1.228115997,5156.732254,no
 24635,43,blue-collar,married,basic.4y,no,no,yes,cellular,may,wed,4216,1,606,5,success,-1.8,92.75679299,-32.73713913,2.718373194,5121.718057,no
 1363,28,services,single,basic.9y,unknown,yes,no,telephone,may,fri,1755,2,167,5,nonexistent,1.1,93.27009385,-30.62310923,2.949601483,5094.890458,no
@@ -5293,7 +5293,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 27757,49,admin.,divorced,university.degree,no,yes,no,cellular,sep,fri,283,3,3,1,success,-3.4,92.379,-29.8,0.773,5017.5,yes
 16160,54,blue-collar,married,basic.4y,unknown,yes,no,cellular,aug,thu,169,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 26137,83,retired,married,basic.9y,no,yes,yes,cellular,may,fri,1754,1,829,5,nonexistent,-1.8,93.9524678,-29.31075485,3.218630906,4974.657905,no
-20607,25,student,single,high.school,no,yes,no,cellular,apr,wed,3404,1,732,0,nonexistent,-1.8,94.2542002,-31.0645724,4.054816386,5185.975861,yes
+20607,25,student,single,high.school,no,yes,no,cellular,apr,wed,3404,1,732,0,nonexistent,-1.8,94.2542002,-31.0645724,4.054816386,5185.975861,no
 1375,28,blue-collar,married,basic.6y,unknown,no,no,telephone,may,fri,1237,2,773,1,failure,1.1,93.28654352,-50.77506335,2.214886,5154.353306,no
 22605,50,management,single,basic.9y,unknown,yes,yes,cellular,aug,tue,219,16,999,0,nonexistent,-1.8,92.893,-46.2,1.344,5099.1,no
 4988,52,entrepreneur,married,basic.9y,unknown,no,no,telephone,may,wed,267,4,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
@@ -5347,7 +5347,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 8828,53,management,married,university.degree,no,no,yes,telephone,jul,tue,3537,3,394,3,failure,1.4,93.23548327,-27.32123616,1.029350913,5201.165085,no
 13080,30,entrepreneur,single,university.degree,no,no,no,telephone,jul,tue,254,21,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
 8017,43,management,divorced,university.degree,no,no,no,telephone,jun,wed,114,1,999,0,nonexistent,1.4,94.465,-41.8,4.962,5228.1,no
-29687,33,technician,married,university.degree,no,yes,no,cellular,sep,wed,2486,1,417,2,success,-1.1,92.71216746,-43.56782937,0.709497593,5122.29771,yes
+29687,33,technician,married,university.degree,no,yes,no,cellular,sep,wed,2486,1,417,2,success,-1.1,92.71216746,-43.56782937,0.709497593,5122.29771,no
 19051,52,technician,married,basic.9y,no,yes,yes,cellular,nov,wed,2473,2,342,3,success,-0.1,92.75203575,-34.5035014,4.558335848,5153.66904,no
 27910,80,retired,married,basic.4y,no,yes,yes,cellular,oct,tue,78,1,999,1,failure,-3.4,92.431,-26.9,0.742,5017.5,no
 20263,88,retired,divorced,basic.4y,no,yes,no,cellular,mar,wed,48,1,999,0,nonexistent,-1.8,92.843,-50.0,1.663,5099.1,no
@@ -5443,7 +5443,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 25626,45,self-employed,divorced,university.degree,no,no,yes,cellular,may,fri,133,1,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,no
 16019,34,admin.,married,university.degree,no,no,no,cellular,aug,wed,2922,3,603,5,failure,1.4,94.00596906,-38.99378393,3.572141332,5219.979125,no
 15976,43,technician,married,professional.course,no,yes,yes,cellular,aug,wed,744,5,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
-9291,97,student,unknown,professional.course,yes,yes,unknown,telephone,oct,tue,116,7,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,yes
+9291,97,student,unknown,professional.course,yes,yes,unknown,telephone,oct,tue,116,7,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 3369,31,technician,single,high.school,no,no,yes,telephone,may,tue,2557,10,595,0,nonexistent,1.1,92.22639904,-42.73292902,1.67135205,5096.664212,no
 26423,41,admin.,married,university.degree,no,no,no,cellular,jun,mon,1126,1,941,3,success,-2.9,92.53929548,-26.96043022,4.571848681,5150.668311,no
 20882,26,blue-collar,married,basic.9y,no,no,no,cellular,apr,thu,375,2,118,6,nonexistent,-1.8,94.57094128,-45.61921633,0.918045279,5177.227047,no
@@ -5490,11 +5490,11 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 8932,45,management,married,university.degree,unknown,no,yes,telephone,jul,fri,4247,1,784,0,nonexistent,1.4,93.35985831,-28.27367226,4.512242267,4982.046421,no
 15928,48,blue-collar,married,basic.9y,no,yes,no,cellular,aug,wed,2164,2,904,6,nonexistent,1.4,93.08575523,-47.66564799,4.909211706,5113.116259,no
 1175,32,blue-collar,married,professional.course,no,no,no,telephone,may,fri,274,1,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
-27452,65,housemaid,divorced,basic.4y,no,yes,no,cellular,aug,tue,212,1,999,0,nonexistent,-2.9,92.201,-31.4,0.859,5076.2,no
+27452,65,housemaid,divorced,basic.4y,no,yes,no,cellular,aug,tue,212,1,999,0,nonexistent,-2.9,92.201,-31.4,0.859,5076.2,yes
 9450,26,blue-collar,single,professional.course,unknown,unknown,unknown,cellular,jul,tue,392,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 22494,42,blue-collar,married,basic.4y,no,yes,no,cellular,may,tue,3826,1,105,1,success,-1.8,94.4307733,-49.41726555,2.194034668,5206.961141,no
 19076,39,services,married,professional.course,no,no,no,cellular,nov,thu,3108,7,195,1,nonexistent,-0.1,94.24426907,-26.9874351,4.457508091,5037.807307,no
-21944,43,admin.,married,university.degree,no,no,no,cellular,apr,thu,1844,4,935,5,failure,-1.8,94.40733623,-36.97689777,2.560317984,5095.086368,no
+21944,43,admin.,married,university.degree,no,no,no,cellular,apr,thu,1844,4,935,5,failure,-1.8,94.40733623,-36.97689777,2.560317984,5095.086368,yes
 9569,30,admin.,married,high.school,no,yes,no,cellular,jul,wed,4328,1,606,3,failure,1.4,92.49170162,-29.20063822,4.870431668,5104.396738,no
 1091,33,services,unknown,high.school,no,yes,yes,telephone,may,thu,155,2,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 14929,49,blue-collar,married,basic.9y,unknown,no,no,cellular,aug,tue,474,2,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
@@ -5598,7 +5598,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 26060,48,services,married,unknown,no,no,no,cellular,may,mon,2838,2,907,4,failure,-1.8,92.73124548,-45.58165523,4.625556276,5135.846463,no
 19653,46,blue-collar,single,basic.4y,no,no,no,cellular,nov,thu,2827,2,13,0,failure,-0.1,92.53920129,-37.90740022,4.978566195,5148.577542,no
 252,46,services,married,high.school,unknown,yes,no,telephone,may,mon,3097,3,805,2,failure,1.1,93.11189299,-29.18147165,1.786020235,5204.033668,no
-2636,49,admin.,married,unknown,no,yes,no,telephone,may,fri,731,4,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
+2636,49,admin.,married,unknown,no,yes,no,telephone,may,fri,731,4,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,yes
 15326,54,technician,married,professional.course,no,yes,yes,cellular,aug,thu,64,2,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
 4782,31,blue-collar,single,high.school,no,no,no,telephone,may,wed,249,11,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 7904,32,services,married,high.school,no,yes,no,telephone,jun,wed,2641,1,737,5,nonexistent,1.4,94.74455432,-43.0152407,0.953726524,5119.449306,no
@@ -5652,7 +5652,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 14697,31,admin.,single,university.degree,no,no,no,cellular,aug,mon,121,1,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 15552,35,admin.,single,university.degree,no,yes,no,cellular,aug,mon,4797,4,319,2,success,1.4,94.55767044,-30.99353961,4.669742723,5205.29778,no
 15200,30,admin.,single,university.degree,no,yes,no,cellular,aug,thu,2214,1,592,1,failure,1.4,93.75169927,-47.75570138,4.803929678,4979.505048,no
-29843,40,blue-collar,unknown,illiterate,yes,unknown,unknown,telephone,sep,tue,2099,8,420,2,success,-1.1,92.64638611,-38.1054479,1.151350699,5135.315496,no
+29843,40,blue-collar,unknown,illiterate,yes,unknown,unknown,telephone,sep,tue,2099,8,420,2,success,-1.1,92.64638611,-38.1054479,1.151350699,5135.315496,yes
 12593,47,technician,divorced,professional.course,no,yes,no,cellular,jul,mon,147,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 6755,46,blue-collar,married,professional.course,no,no,no,telephone,jun,fri,286,2,999,0,nonexistent,1.4,94.465,-41.8,4.967,5228.1,no
 9125,55,admin.,divorced,university.degree,unknown,yes,no,cellular,jul,mon,794,1,668,5,failure,1.4,92.69484351,-37.82971104,3.348882175,5043.210755,no
@@ -5685,7 +5685,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 8486,39,services,married,high.school,unknown,no,no,telephone,jun,fri,32,9,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 6209,40,admin.,married,high.school,no,yes,yes,telephone,jun,wed,1930,10,128,2,failure,1.4,93.04142243,-45.73004499,2.071685847,5200.780961,no
 14401,40,technician,single,university.degree,no,yes,yes,cellular,aug,fri,150,2,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
-21208,38,technician,married,professional.course,unknown,no,no,cellular,apr,fri,762,1,637,0,success,-1.8,93.99670759,-41.55982203,2.06846546,5041.352989,no
+21208,38,technician,married,professional.course,unknown,no,no,cellular,apr,fri,762,1,637,0,success,-1.8,93.99670759,-41.55982203,2.06846546,5041.352989,yes
 14129,41,technician,married,high.school,no,yes,yes,cellular,aug,wed,1948,6,175,2,failure,1.4,94.61433234,-49.62514795,1.123186042,5183.914542,no
 16380,33,admin.,married,university.degree,no,yes,no,cellular,aug,fri,3573,1,627,6,nonexistent,1.4,92.45836731,-33.83407932,4.138779061,5037.251026,no
 10281,33,entrepreneur,married,university.degree,no,no,no,cellular,jul,mon,3124,2,951,3,success,1.4,93.86288856,-44.32802009,2.361872929,5192.545242,no
@@ -5702,7 +5702,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11227,26,blue-collar,married,basic.9y,no,no,yes,telephone,jul,fri,494,2,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,no
 28794,41,admin.,married,university.degree,no,yes,no,cellular,apr,fri,342,1,999,0,nonexistent,-1.8,93.749,-34.6,0.645,5008.7,yes
 22323,30,unemployed,married,high.school,no,yes,yes,telephone,may,mon,2819,4,803,5,success,-1.8,92.95706165,-44.44999472,3.191738069,5126.68236,no
-17474,27,self-employed,single,university.degree,no,no,no,telephone,oct,fri,24,1,999,0,nonexistent,-0.1,93.798,-40.4,5.045,5195.8,no
+17474,27,self-employed,single,university.degree,no,no,no,telephone,oct,fri,24,1,999,0,nonexistent,-0.1,93.798,-40.4,5.045,5195.8,yes
 10659,41,entrepreneur,divorced,university.degree,no,yes,no,cellular,jul,tue,4891,5,811,1,success,1.4,94.61845311,-37.4127096,4.217414698,5004.459911,no
 8543,42,housemaid,married,basic.4y,unknown,yes,no,telephone,jun,fri,929,8,92,5,success,1.4,92.45566415,-32.25934215,2.238392466,5191.133351,no
 10042,31,technician,married,professional.course,no,no,yes,cellular,jul,thu,3933,1,856,2,success,1.4,92.61028031,-40.51363043,4.843458076,5060.305396,no
@@ -5748,7 +5748,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 15964,31,technician,married,high.school,no,yes,no,cellular,aug,wed,4746,2,767,2,nonexistent,1.4,93.69434862,-31.83259992,1.808461832,5191.167608,no
 12451,38,admin.,married,university.degree,no,no,no,cellular,jul,fri,1969,5,301,0,nonexistent,1.4,92.89528225,-50.45694326,4.00339499,5161.292357,no
 24828,42,services,married,basic.9y,no,yes,no,cellular,may,wed,201,1,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,no
-27078,51,management,married,university.degree,no,yes,no,cellular,aug,tue,249,1,999,0,nonexistent,-2.9,92.201,-31.4,0.884,5076.2,yes
+27078,51,management,married,university.degree,no,yes,no,cellular,aug,tue,249,1,999,0,nonexistent,-2.9,92.201,-31.4,0.884,5076.2,no
 14443,46,admin.,married,high.school,unknown,no,no,cellular,aug,fri,49,3,999,0,nonexistent,1.4,93.444,-36.1,4.966,5228.1,no
 8592,58,blue-collar,married,basic.9y,unknown,yes,no,telephone,jun,fri,4741,15,292,5,nonexistent,1.4,94.60936309,-45.89357979,1.810083952,5079.330044,no
 7120,29,admin.,single,university.degree,no,no,no,telephone,jun,wed,442,1,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
@@ -5761,7 +5761,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 5823,31,management,married,high.school,no,yes,no,telephone,jun,mon,322,5,999,0,nonexistent,1.4,94.465,-41.8,4.865,5228.1,no
 19851,33,admin.,single,university.degree,no,no,no,telephone,nov,fri,49,1,999,0,nonexistent,-0.1,93.2,-42.0,4.021,5195.8,no
 2839,31,services,married,basic.9y,no,yes,no,telephone,may,fri,186,5,999,0,nonexistent,1.1,93.994,-36.4,4.859,5191.0,no
-28573,22,student,single,basic.9y,no,no,no,cellular,mar,fri,84,1,999,1,failure,-1.8,93.369,-34.8,0.653,5008.7,yes
+28573,22,student,single,basic.9y,no,no,no,cellular,mar,fri,84,1,999,1,failure,-1.8,93.369,-34.8,0.653,5008.7,no
 6929,37,admin.,divorced,university.degree,no,yes,no,telephone,jun,mon,2174,1,825,4,nonexistent,1.4,93.03140411,-37.2398059,4.826587144,5102.304746,no
 22939,40,housemaid,divorced,high.school,no,yes,no,cellular,may,wed,136,3,999,1,failure,-1.8,92.893,-46.2,1.334,5099.1,no
 15789,33,admin.,married,university.degree,no,yes,no,cellular,aug,tue,118,3,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
@@ -5888,7 +5888,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 25559,44,admin.,married,basic.9y,no,yes,no,cellular,may,fri,3981,1,440,5,success,-1.8,93.18150813,-27.33782431,3.990035457,5143.451972,no
 12754,44,services,divorced,high.school,no,yes,no,cellular,jul,mon,47,5,886,5,failure,1.4,93.16089413,-46.08068713,3.717896304,5126.654034,no
 15274,30,admin.,married,high.school,unknown,yes,yes,cellular,aug,thu,1151,1,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
-24686,90,services,unknown,university.degree,no,unknown,unknown,telephone,may,wed,349,18,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,yes
+24686,90,services,unknown,university.degree,no,unknown,unknown,telephone,may,wed,349,18,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,no
 24552,41,services,married,high.school,no,yes,yes,cellular,may,wed,1622,8,727,1,nonexistent,-1.8,93.7890039,-34.38264586,3.484395445,4984.623043,no
 10817,29,self-employed,single,university.degree,no,yes,no,cellular,jul,wed,513,1,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,no
 21709,46,services,married,high.school,unknown,yes,no,cellular,apr,mon,3498,2,10,5,failure,-1.8,93.01555284,-38.57818678,5.01387729,4981.922033,no
@@ -5961,7 +5961,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 5569,50,blue-collar,married,unknown,unknown,yes,no,telephone,may,fri,81,2,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,no
 17893,42,admin.,married,university.degree,no,yes,no,cellular,nov,mon,65,2,999,1,failure,-0.1,93.2,-42.0,4.191,5195.8,no
 17500,46,admin.,divorced,university.degree,no,no,no,telephone,oct,mon,1828,1,843,4,nonexistent,-0.1,93.37451409,-34.19944684,2.69372164,5212.799531,yes
-5475,37,blue-collar,married,high.school,no,no,no,telephone,may,fri,1236,2,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,no
+5475,37,blue-collar,married,high.school,no,no,no,telephone,may,fri,1236,2,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,yes
 22647,41,blue-collar,married,basic.9y,no,yes,yes,cellular,may,tue,4061,1,356,3,nonexistent,-1.8,92.61182724,-46.374296,1.745011165,5125.357438,no
 2600,32,technician,single,professional.course,no,yes,no,telephone,may,fri,3932,1,61,3,success,1.1,92.71091898,-49.47184163,4.243878636,5160.23782,no
 21990,27,admin.,single,university.degree,no,no,no,cellular,apr,thu,4212,1,950,3,nonexistent,-1.8,94.35992764,-38.58738444,2.844352994,5180.627756,no
@@ -5970,7 +5970,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 23522,33,blue-collar,single,basic.6y,no,unknown,unknown,telephone,may,fri,833,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 14986,31,technician,single,high.school,no,no,no,cellular,aug,wed,303,1,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 27792,51,unemployed,married,high.school,no,yes,no,cellular,sep,wed,4521,2,740,0,failure,-3.4,94.42072979,-38.60024509,1.907204022,5201.858421,no
-21914,64,retired,married,university.degree,no,yes,no,cellular,apr,wed,3476,1,665,3,success,-1.8,92.94913354,-47.06224436,3.092859063,5003.632091,no
+21914,64,retired,married,university.degree,no,yes,no,cellular,apr,wed,3476,1,665,3,success,-1.8,92.94913354,-47.06224436,3.092859063,5003.632091,yes
 13809,45,unemployed,married,university.degree,no,yes,no,cellular,aug,mon,1954,3,970,4,success,1.4,92.8066129,-35.12389294,3.190109575,5012.784158,no
 5531,93,retired,single,basic.4y,unknown,yes,no,telephone,oct,tue,107,39,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,yes
 8347,40,management,married,university.degree,no,no,no,telephone,jun,fri,618,1,910,4,success,1.4,92.71005266,-43.38030042,3.715391038,5213.601825,no
@@ -6030,7 +6030,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 25013,96,housemaid,single,unknown,yes,no,yes,cellular,nov,wed,1276,35,917,4,success,-1.8,94.48953127,-44.90612887,3.607730434,5173.713808,no
 15339,48,blue-collar,married,professional.course,unknown,yes,no,cellular,aug,thu,657,3,795,2,failure,1.4,92.36760378,-39.79782648,1.595908568,5098.10296,no
 21690,40,blue-collar,married,basic.6y,unknown,unknown,unknown,cellular,apr,mon,936,1,163,4,failure,-1.8,92.23093825,-42.00867551,2.921396155,5140.056056,no
-10147,55,entrepreneur,married,professional.course,unknown,yes,no,cellular,jul,fri,965,2,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
+10147,55,entrepreneur,married,professional.course,unknown,yes,no,cellular,jul,fri,965,2,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,yes
 23089,34,management,married,university.degree,unknown,yes,no,cellular,may,thu,383,1,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
 3108,32,services,single,basic.6y,no,no,yes,telephone,may,tue,1205,1,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 7972,29,technician,divorced,professional.course,no,yes,no,telephone,jun,wed,3397,19,688,5,nonexistent,1.4,94.34193365,-50.64785368,4.884855328,5174.814248,no
@@ -6046,7 +6046,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 14171,39,technician,married,professional.course,no,yes,no,cellular,aug,thu,253,1,999,0,nonexistent,1.4,93.444,-36.1,4.968,5228.1,no
 8238,42,technician,married,basic.6y,no,no,no,telephone,jun,thu,4409,1,959,5,nonexistent,1.4,94.2335515,-30.93047565,3.83925434,5071.619578,no
 10278,50,admin.,divorced,basic.9y,no,no,no,cellular,jul,mon,2740,4,332,5,nonexistent,1.4,93.34531207,-45.00035321,4.192492857,5007.928469,no
-26738,55,housemaid,married,unknown,no,no,no,cellular,jun,fri,133,1,999,1,failure,-2.9,92.963,-40.8,1.268,5076.2,no
+26738,55,housemaid,married,unknown,no,no,no,cellular,jun,fri,133,1,999,1,failure,-2.9,92.963,-40.8,1.268,5076.2,yes
 5314,38,blue-collar,married,high.school,unknown,yes,no,telephone,may,fri,203,2,999,0,nonexistent,1.1,93.994,-36.4,4.864,5191.0,no
 20044,37,self-employed,married,university.degree,no,no,no,telephone,nov,fri,449,9,834,6,nonexistent,-0.1,94.0459356,-46.75725554,1.642168526,5143.895699,no
 6799,37,admin.,married,university.degree,no,no,no,telephone,jun,fri,2554,3,117,3,failure,1.4,92.34135714,-38.64767652,1.048449665,5055.803068,no
@@ -6341,7 +6341,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 3077,42,management,married,basic.6y,unknown,yes,no,telephone,may,mon,3078,4,999,0,nonexistent,1.1,93.994,-36.4,4.858,5191.0,no
 23662,39,blue-collar,married,basic.9y,unknown,no,no,cellular,may,fri,69,4,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 11584,39,management,married,university.degree,unknown,yes,no,cellular,jul,mon,3674,3,624,5,success,1.4,92.42079294,-34.38991303,3.686320461,5159.935423,no
-12976,60,entrepreneur,divorced,unknown,no,unknown,unknown,cellular,may,tue,81,15,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
+12976,60,entrepreneur,divorced,unknown,no,unknown,unknown,cellular,may,tue,81,15,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,yes
 22438,44,blue-collar,married,basic.9y,no,yes,yes,cellular,may,tue,180,1,999,0,nonexistent,-1.8,92.893,-46.2,1.344,5099.1,no
 21598,56,self-employed,married,university.degree,no,no,no,cellular,apr,mon,3577,3,910,4,failure,-1.8,92.49335534,-35.07446261,0.837379586,5179.283093,no
 14754,30,technician,single,high.school,unknown,no,no,cellular,aug,mon,339,3,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
@@ -6364,7 +6364,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 24672,29,admin.,married,university.degree,no,no,no,cellular,may,wed,1442,5,705,0,failure,-1.8,93.18435072,-36.26408433,1.916994149,5153.662626,no
 12095,50,management,married,university.degree,no,yes,no,cellular,jul,wed,110,2,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 18826,40,admin.,single,university.degree,no,no,no,cellular,nov,wed,267,2,999,0,nonexistent,-0.1,93.2,-42.0,4.12,5195.8,no
-22367,30,unemployed,unknown,unknown,no,no,unknown,telephone,mar,tue,2246,13,900,3,failure,-1.8,94.4997609,-27.34046068,5.021164418,5193.944601,no
+22367,30,unemployed,unknown,unknown,no,no,unknown,telephone,mar,tue,2246,13,900,3,failure,-1.8,94.4997609,-27.34046068,5.021164418,5193.944601,yes
 18507,37,technician,married,professional.course,no,no,no,cellular,nov,tue,91,1,999,0,nonexistent,-0.1,93.2,-42.0,4.153,5195.8,no
 17529,30,technician,married,professional.course,no,yes,no,telephone,nov,wed,1891,1,522,3,nonexistent,-0.1,92.50500515,-37.59286058,2.828032248,4992.453667,no
 2688,53,blue-collar,divorced,basic.4y,unknown,no,no,telephone,may,fri,2384,1,68,1,success,1.1,94.49874042,-39.27947443,3.347061746,5035.647303,no
@@ -6372,7 +6372,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 15405,37,technician,married,professional.course,no,yes,no,cellular,aug,mon,89,2,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 24363,48,management,married,basic.9y,no,yes,no,cellular,may,tue,725,1,999,0,nonexistent,-1.8,92.893,-46.2,1.291,5099.1,no
 4806,55,retired,married,high.school,no,no,no,telephone,may,wed,302,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
-27081,72,retired,divorced,university.degree,no,no,no,cellular,aug,tue,3681,1,983,2,failure,-2.9,94.22243212,-39.70734769,1.18310996,5092.732108,no
+27081,72,retired,divorced,university.degree,no,no,no,cellular,aug,tue,3681,1,983,2,failure,-2.9,94.22243212,-39.70734769,1.18310996,5092.732108,yes
 2301,33,admin.,married,university.degree,no,no,no,telephone,may,thu,1266,1,2,2,success,1.1,94.41880674,-48.02277437,4.92581512,5189.299774,no
 14317,38,technician,married,high.school,no,yes,no,cellular,aug,thu,452,3,999,0,nonexistent,1.4,93.444,-36.1,4.968,5228.1,no
 26883,34,admin.,married,university.degree,no,no,no,telephone,jun,wed,84,4,999,0,nonexistent,-2.9,92.963,-40.8,1.244,5076.2,no
@@ -6492,7 +6492,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 23722,37,blue-collar,married,high.school,unknown,no,yes,telephone,may,fri,367,5,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 12436,50,admin.,married,university.degree,no,yes,no,cellular,jul,fri,127,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 22945,30,admin.,divorced,high.school,no,yes,no,telephone,may,wed,4549,4,480,1,nonexistent,-1.8,92.20205573,-28.09538008,3.35989218,5074.587203,no
-23703,32,technician,single,illiterate,yes,unknown,yes,telephone,nov,thu,247,21,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,yes
+23703,32,technician,single,illiterate,yes,unknown,yes,telephone,nov,thu,247,21,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 15588,54,technician,married,professional.course,unknown,no,no,cellular,aug,tue,87,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 23965,32,blue-collar,married,basic.9y,no,yes,no,cellular,may,mon,102,2,999,0,nonexistent,-1.8,92.893,-46.2,1.299,5099.1,no
 14073,35,admin.,married,university.degree,no,yes,no,cellular,aug,wed,39,6,999,0,nonexistent,1.4,93.444,-36.1,4.967,5228.1,no
@@ -6538,7 +6538,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 6560,43,services,married,basic.9y,no,no,no,telephone,jun,thu,4165,17,703,6,success,1.4,92.73985296,-46.410216,1.150010753,5070.164815,no
 13568,32,technician,married,university.degree,no,yes,no,cellular,jul,thu,1355,7,400,2,nonexistent,1.4,93.54508501,-36.91691412,4.402852939,5132.117131,no
 26626,21,admin.,single,high.school,no,yes,no,cellular,jun,wed,180,1,999,0,nonexistent,-2.9,92.963,-40.8,1.26,5076.2,yes
-23473,45,technician,divorced,university.degree,unknown,no,no,cellular,may,fri,776,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,yes
+23473,45,technician,divorced,university.degree,unknown,no,no,cellular,may,fri,776,1,999,0,nonexistent,-1.8,92.893,-46.2,1.313,5099.1,no
 10955,27,blue-collar,single,basic.9y,no,no,no,cellular,jul,thu,2278,1,993,3,nonexistent,1.4,94.50343553,-28.41634854,4.339966518,5003.020859,no
 20139,50,technician,married,university.degree,no,yes,no,cellular,nov,fri,724,4,552,2,nonexistent,-0.1,94.14462944,-32.27923708,4.088655993,5145.975948,no
 23593,27,admin.,single,high.school,no,yes,no,cellular,may,fri,340,1,999,1,failure,-1.8,92.893,-46.2,1.313,5099.1,no
@@ -6622,7 +6622,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 22586,51,management,married,high.school,unknown,yes,no,cellular,may,tue,397,1,999,0,nonexistent,-1.8,92.893,-46.2,1.344,5099.1,no
 15903,31,admin.,single,university.degree,no,yes,no,cellular,aug,wed,2079,2,444,0,success,1.4,94.48617434,-50.03311822,3.331379417,4990.51595,no
 8928,37,admin.,single,university.degree,no,no,no,telephone,jul,fri,43,11,999,0,nonexistent,1.4,93.918,-42.7,4.959,5228.1,no
-17497,58,retired,married,university.degree,no,yes,no,telephone,oct,fri,12,1,999,0,nonexistent,-0.1,93.798,-40.4,4.918,5195.8,no
+17497,58,retired,married,university.degree,no,yes,no,telephone,oct,fri,12,1,999,0,nonexistent,-0.1,93.798,-40.4,4.918,5195.8,yes
 6966,34,admin.,married,university.degree,no,yes,no,telephone,jun,mon,206,2,999,0,nonexistent,1.4,94.465,-41.8,4.961,5228.1,no
 1422,32,management,married,high.school,no,yes,no,telephone,may,fri,119,2,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 25512,46,services,divorced,basic.4y,no,no,no,cellular,may,fri,2686,7,232,1,failure,-1.8,93.34722198,-34.75801013,3.695045089,5098.946486,yes
@@ -6667,7 +6667,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 10218,35,admin.,single,high.school,no,yes,no,cellular,jul,fri,196,2,999,0,nonexistent,1.4,93.918,-42.7,4.963,5228.1,no
 13658,33,technician,married,university.degree,no,yes,no,cellular,jul,thu,76,4,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 24834,24,blue-collar,divorced,basic.9y,no,no,no,cellular,may,wed,417,1,999,0,nonexistent,-1.8,92.893,-46.2,1.281,5099.1,no
-20354,56,blue-collar,married,basic.4y,no,yes,no,cellular,mar,fri,283,1,999,0,nonexistent,-1.8,92.843,-50.0,1.531,5099.1,yes
+20354,56,blue-collar,married,basic.4y,no,yes,no,cellular,mar,fri,283,1,999,0,nonexistent,-1.8,92.843,-50.0,1.531,5099.1,no
 25912,24,blue-collar,single,basic.9y,no,no,no,cellular,may,mon,297,1,999,0,nonexistent,-1.8,92.893,-46.2,1.244,5099.1,no
 5791,39,services,divorced,high.school,unknown,yes,no,telephone,jun,mon,3061,5,433,5,failure,1.4,94.14425727,-30.97121132,1.36945318,5073.667019,no
 17891,39,services,married,professional.course,no,no,no,cellular,nov,mon,1545,1,795,0,nonexistent,-0.1,93.60096453,-44.34992881,2.541571339,5011.837573,no
@@ -6748,7 +6748,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2022,49,admin.,divorced,basic.9y,no,yes,no,telephone,may,wed,3787,2,558,6,nonexistent,1.1,92.26877714,-38.40011708,3.297103513,5091.736568,no
 24601,32,blue-collar,single,basic.9y,unknown,yes,no,telephone,may,wed,134,1,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,no
 25638,30,student,unknown,illiterate,unknown,no,unknown,telephone,aug,mon,67,32,999,1,failure,-1.8,92.893,-46.2,1.25,5099.1,yes
-21397,27,unemployed,single,basic.9y,no,no,no,cellular,apr,fri,4456,2,118,0,failure,-1.8,93.32354792,-27.7192596,4.469391528,5140.072028,no
+21397,27,unemployed,single,basic.9y,no,no,no,cellular,apr,fri,4456,2,118,0,failure,-1.8,93.32354792,-27.7192596,4.469391528,5140.072028,yes
 16014,30,technician,single,professional.course,no,no,yes,cellular,aug,wed,443,3,999,0,nonexistent,1.4,93.444,-36.1,4.964,5228.1,no
 18405,29,technician,married,professional.course,no,no,no,cellular,nov,tue,771,3,669,3,success,-0.1,93.76543263,-39.56063271,2.436803535,5129.29073,no
 22970,54,management,divorced,university.degree,no,yes,yes,cellular,may,wed,265,2,999,1,failure,-1.8,92.893,-46.2,1.334,5099.1,no
@@ -6786,7 +6786,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 4354,35,services,single,high.school,unknown,no,yes,telephone,may,tue,234,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 6563,52,blue-collar,married,unknown,unknown,yes,no,telephone,jun,thu,60,3,999,0,nonexistent,1.4,94.465,-41.8,4.866,5228.1,no
 5109,38,self-employed,married,unknown,no,yes,no,telephone,may,thu,118,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
-25558,23,blue-collar,single,basic.4y,no,yes,no,cellular,may,fri,523,2,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,no
+25558,23,blue-collar,single,basic.4y,no,yes,no,cellular,may,fri,523,2,999,0,nonexistent,-1.8,92.893,-46.2,1.25,5099.1,yes
 17416,33,unemployed,married,university.degree,no,yes,no,cellular,aug,fri,2553,2,616,3,nonexistent,1.4,92.34079575,-36.87491884,4.280489272,5194.139291,no
 19420,39,management,divorced,university.degree,no,yes,no,cellular,nov,thu,1559,6,298,2,success,-0.1,93.39263146,-27.4971909,2.489579128,5187.791314,no
 5187,55,technician,married,professional.course,no,yes,no,telephone,may,thu,829,3,409,0,success,1.1,93.47376083,-32.63349781,4.749230211,5000.066452,no
@@ -6845,7 +6845,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 27494,33,admin.,single,university.degree,no,yes,no,cellular,aug,wed,3595,1,642,4,success,-2.9,94.40102314,-35.5640993,3.985775888,5031.925212,no
 20825,41,services,single,high.school,no,no,no,cellular,apr,wed,3379,1,713,4,nonexistent,-1.8,92.45561413,-48.43131008,4.320449919,5215.5265,no
 27357,46,admin.,married,university.degree,no,yes,no,telephone,aug,thu,213,1,999,0,nonexistent,-2.9,92.201,-31.4,0.873,5076.2,no
-4345,59,unknown,divorced,university.degree,yes,yes,yes,telephone,mar,thu,205,18,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,yes
+4345,59,unknown,divorced,university.degree,yes,yes,yes,telephone,mar,thu,205,18,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 16796,35,admin.,single,university.degree,no,no,no,cellular,aug,tue,131,1,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 25138,36,admin.,single,university.degree,no,no,no,telephone,may,thu,121,1,999,0,nonexistent,-1.8,92.893,-46.2,1.266,5099.1,no
 17954,57,retired,married,university.degree,no,yes,yes,cellular,nov,mon,2420,2,479,2,success,-0.1,93.23154062,-47.45108628,3.813914933,5124.160588,no
@@ -6876,7 +6876,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 18475,46,admin.,married,high.school,no,yes,no,cellular,nov,tue,154,2,999,0,nonexistent,-0.1,93.2,-42.0,4.153,5195.8,no
 1675,94,unknown,divorced,high.school,yes,yes,no,telephone,jun,mon,375,50,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
 27057,34,admin.,married,university.degree,no,no,yes,cellular,jul,tue,3059,4,777,3,success,-2.9,92.6239031,-40.50728474,1.251838586,5138.312289,yes
-24606,29,unemployed,single,basic.4y,no,no,yes,telephone,mar,mon,95,4,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,yes
+24606,29,unemployed,single,basic.4y,no,no,yes,telephone,mar,mon,95,4,999,1,failure,-1.8,92.893,-46.2,1.281,5099.1,no
 12173,35,management,single,university.degree,unknown,yes,no,cellular,jul,thu,211,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 12998,48,blue-collar,married,basic.6y,no,yes,no,cellular,jul,tue,3269,1,981,1,failure,1.4,94.52785385,-28.50822664,1.591683771,5077.562272,no
 3365,25,services,single,high.school,no,no,no,telephone,may,tue,72,3,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no
@@ -6954,7 +6954,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 20835,36,housemaid,married,basic.4y,no,yes,no,cellular,apr,wed,310,7,999,0,nonexistent,-1.8,93.075,-47.1,1.415,5099.1,no
 24059,27,entrepreneur,married,university.degree,no,yes,no,cellular,may,mon,153,2,999,0,nonexistent,-1.8,92.893,-46.2,1.299,5099.1,no
 23253,43,self-employed,married,professional.course,no,yes,no,cellular,may,thu,104,2,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
-19443,46,admin.,married,high.school,no,yes,no,cellular,nov,thu,790,1,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
+19443,46,admin.,married,high.school,no,yes,no,cellular,nov,thu,790,1,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,yes
 20867,43,blue-collar,married,basic.6y,no,no,no,cellular,apr,wed,2351,2,314,2,failure,-1.8,92.46739437,-41.42429848,4.703540497,5146.541327,no
 1371,30,housemaid,married,high.school,unknown,yes,no,telephone,may,fri,175,2,999,0,nonexistent,1.1,93.994,-36.4,4.855,5191.0,no
 29943,32,admin.,single,high.school,no,no,no,cellular,nov,mon,59,2,988,4,nonexistent,-1.1,92.80900016,-48.09882761,4.549430139,5026.837253,no
@@ -7079,7 +7079,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 2324,37,self-employed,married,professional.course,no,yes,no,telephone,may,thu,80,1,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
 20795,42,admin.,married,university.degree,no,yes,yes,cellular,apr,tue,101,5,999,0,nonexistent,-1.8,93.075,-47.1,1.423,5099.1,no
 10676,35,blue-collar,single,basic.9y,no,yes,no,cellular,jul,tue,120,6,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no
-16880,47,admin.,married,university.degree,no,yes,no,cellular,aug,tue,653,5,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,yes
+16880,47,admin.,married,university.degree,no,yes,no,cellular,aug,tue,653,5,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 7083,54,housemaid,divorced,basic.4y,no,yes,no,telephone,jun,wed,129,6,999,0,nonexistent,1.4,94.465,-41.8,4.959,5228.1,no
 13661,38,admin.,married,basic.6y,no,yes,no,telephone,jul,thu,39,3,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 16099,44,blue-collar,married,basic.4y,unknown,yes,no,cellular,aug,thu,79,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
@@ -7106,7 +7106,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 13681,50,self-employed,married,professional.course,no,no,no,cellular,jul,thu,73,7,999,0,nonexistent,1.4,93.918,-42.7,4.968,5228.1,no
 9061,28,housemaid,single,basic.6y,no,no,no,cellular,jul,mon,1952,1,714,1,nonexistent,1.4,93.80187007,-47.34091073,3.586860481,5151.800952,no
 21156,40,blue-collar,single,basic.6y,unknown,no,no,cellular,apr,fri,139,1,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,no
-12977,60,retired,divorced,professional.course,no,no,no,cellular,jul,tue,3194,4,921,2,success,1.4,93.37191196,-28.66983627,1.229720823,5109.348275,yes
+12977,60,retired,divorced,professional.course,no,no,no,cellular,jul,tue,3194,4,921,2,success,1.4,93.37191196,-28.66983627,1.229720823,5109.348275,no
 17681,30,services,single,high.school,no,no,no,cellular,nov,mon,1841,1,816,1,nonexistent,-0.1,94.67040184,-40.2986656,2.181851805,5087.170174,no
 8964,59,retired,married,basic.4y,unknown,no,no,telephone,jul,fri,4323,2,317,3,failure,1.4,93.56091801,-33.02815803,1.599235911,5030.577832,no
 13258,48,technician,married,professional.course,no,no,no,cellular,jul,wed,816,4,110,2,success,1.4,94.30983809,-40.43185193,0.73866547,5009.272351,no
@@ -7148,7 +7148,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 22134,24,student,single,high.school,no,yes,no,cellular,apr,thu,139,1,586,6,success,-1.8,94.06873211,-41.84793375,1.189255524,5106.287361,no
 8677,42,entrepreneur,divorced,basic.9y,yes,no,yes,cellular,apr,thu,2440,47,734,2,success,1.4,92.96630954,-49.8504905,3.020557988,5138.043468,yes
 19436,34,management,divorced,university.degree,no,no,no,cellular,nov,thu,370,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
-28161,37,admin.,married,high.school,no,no,no,cellular,nov,mon,235,4,999,0,nonexistent,-3.4,92.649,-30.1,0.722,5017.5,yes
+28161,37,admin.,married,high.school,no,no,no,cellular,nov,mon,235,4,999,0,nonexistent,-3.4,92.649,-30.1,0.722,5017.5,no
 5113,29,entrepreneur,divorced,basic.9y,no,yes,no,telephone,may,thu,472,1,446,0,success,1.1,93.40975186,-41.80840304,0.890143248,5123.787006,no
 8982,48,blue-collar,married,basic.4y,no,no,yes,cellular,jul,fri,497,2,944,0,failure,1.4,93.39517613,-29.37404157,4.455859333,5113.783104,no
 28335,38,admin.,married,high.school,no,yes,no,cellular,nov,mon,136,1,999,1,failure,-3.4,92.649,-30.1,0.714,5017.5,no
@@ -7297,7 +7297,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 11589,37,blue-collar,single,basic.9y,no,no,no,cellular,jul,mon,1269,2,964,4,failure,1.4,93.05791374,-34.19191325,1.956125908,4971.467079,no
 26149,48,entrepreneur,married,university.degree,no,yes,no,cellular,may,fri,316,2,999,0,nonexistent,-1.8,92.893,-46.2,1.259,5099.1,no
 6787,31,services,married,high.school,no,no,yes,telephone,jun,fri,2902,2,639,2,failure,1.4,94.191303,-50.74571918,1.336200282,4978.62392,no
-3737,78,admin.,unknown,unknown,unknown,unknown,yes,telephone,mar,tue,1391,14,300,0,failure,1.1,92.62418676,-29.93089697,2.676984669,4978.91271,yes
+3737,78,admin.,unknown,unknown,unknown,unknown,yes,telephone,mar,tue,1391,14,300,0,failure,1.1,92.62418676,-29.93089697,2.676984669,4978.91271,no
 15046,39,admin.,divorced,university.degree,no,yes,no,cellular,aug,wed,130,3,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no
 15382,48,blue-collar,married,unknown,no,no,no,cellular,aug,mon,1254,3,844,1,failure,1.4,93.75318876,-36.49218859,2.623156231,5213.294302,no
 179,34,management,married,university.degree,no,yes,no,telephone,may,mon,18,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
@@ -7331,7 +7331,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 4098,50,blue-collar,married,basic.4y,unknown,yes,no,telephone,may,mon,133,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no
 10162,28,services,married,high.school,no,no,no,cellular,jul,fri,4680,2,264,5,nonexistent,1.4,92.52259495,-39.21594576,3.941015566,5151.2354,no
 23398,26,services,single,high.school,no,yes,no,cellular,may,thu,177,2,999,0,nonexistent,-1.8,92.893,-46.2,1.327,5099.1,no
-20398,56,entrepreneur,divorced,university.degree,no,no,no,cellular,apr,wed,202,2,999,0,nonexistent,-1.8,93.075,-47.1,1.498,5099.1,no
+20398,56,entrepreneur,divorced,university.degree,no,no,no,cellular,apr,wed,202,2,999,0,nonexistent,-1.8,93.075,-47.1,1.498,5099.1,yes
 9345,44,blue-collar,single,university.degree,unknown,yes,yes,cellular,jul,tue,70,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 12286,55,unknown,married,basic.4y,no,yes,no,cellular,jul,thu,1298,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 12396,18,self-employed,single,high.school,yes,no,unknown,telephone,oct,mon,3887,39,851,6,success,1.4,93.32065623,-31.39029625,3.483387737,4998.646126,no
@@ -7442,7 +7442,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 12642,47,management,single,university.degree,unknown,yes,no,cellular,jul,mon,106,2,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 11754,44,admin.,married,university.degree,no,yes,no,cellular,jul,tue,3531,2,992,2,nonexistent,1.4,93.31495851,-40.57122976,1.428595834,5154.735711,no
 21142,46,management,married,university.degree,unknown,yes,no,cellular,apr,fri,268,1,999,1,failure,-1.8,93.075,-47.1,1.405,5099.1,no
-18602,60,services,single,basic.4y,unknown,unknown,yes,cellular,aug,thu,2412,22,438,4,failure,-0.1,93.66497867,-41.5030747,2.217168129,5109.005986,yes
+18602,60,services,single,basic.4y,unknown,unknown,yes,cellular,aug,thu,2412,22,438,4,failure,-0.1,93.66497867,-41.5030747,2.217168129,5109.005986,no
 10217,35,blue-collar,married,basic.6y,no,no,no,cellular,jul,fri,433,2,837,2,nonexistent,1.4,94.25593071,-46.90098297,1.601550916,5193.267682,no
 16115,30,admin.,single,university.degree,no,no,no,cellular,aug,thu,180,1,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
 20548,43,blue-collar,married,basic.9y,unknown,no,no,cellular,apr,tue,608,1,999,1,failure,-1.8,93.075,-47.1,1.453,5099.1,no
@@ -7455,7 +7455,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 27892,42,management,divorced,unknown,no,yes,no,telephone,oct,thu,4067,1,608,0,failure,-3.4,92.71621383,-41.7022618,3.007828712,5187.605309,no
 9629,31,blue-collar,married,basic.9y,no,yes,no,cellular,jul,wed,72,1,999,0,nonexistent,1.4,93.918,-42.7,4.962,5228.1,no
 18413,34,services,single,high.school,no,no,no,cellular,nov,tue,202,2,999,0,nonexistent,-0.1,93.2,-42.0,4.153,5195.8,no
-2438,32,self-employed,unknown,basic.6y,no,unknown,no,cellular,nov,fri,282,4,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
+2438,32,self-employed,unknown,basic.6y,no,unknown,no,cellular,nov,fri,282,4,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,yes
 20824,44,technician,single,professional.course,no,yes,no,cellular,apr,wed,75,1,999,1,failure,-1.8,93.075,-47.1,1.415,5099.1,no
 19462,35,admin.,married,high.school,no,yes,no,cellular,nov,thu,125,2,999,0,nonexistent,-0.1,93.2,-42.0,4.076,5195.8,no
 16321,74,retired,unknown,university.degree,yes,unknown,yes,telephone,oct,fri,60,39,991,5,nonexistent,1.4,94.35177665,-35.31383194,3.57113548,5028.348752,no
@@ -7494,7 +7494,7 @@ RecordID,age,job,marital,education,default,housing,loan,contact,month,day_of_wee
 22700,33,blue-collar,married,basic.6y,no,no,no,cellular,may,wed,473,4,999,0,nonexistent,-1.8,92.893,-46.2,1.334,5099.1,no
 24351,43,blue-collar,married,basic.4y,no,yes,no,cellular,may,tue,1770,1,830,4,failure,-1.8,92.83708069,-46.70109733,1.684300696,5059.338841,no
 25744,35,self-employed,unknown,basic.6y,unknown,yes,unknown,cellular,oct,tue,1620,26,30,5,success,-1.8,93.53528473,-30.27157457,1.692427658,5097.732125,yes
-25105,50,admin.,unknown,university.degree,unknown,yes,yes,telephone,apr,fri,3969,48,290,1,failure,-1.8,94.07749355,-39.98594368,3.709513937,5033.480618,yes
+25105,50,admin.,unknown,university.degree,unknown,yes,yes,telephone,apr,fri,3969,48,290,1,failure,-1.8,94.07749355,-39.98594368,3.709513937,5033.480618,no
 13297,35,blue-collar,married,basic.4y,no,no,no,cellular,jul,wed,596,8,424,3,failure,1.4,93.3020193,-49.73708827,1.76690692,5095.562948,no
 26780,53,retired,single,basic.4y,no,yes,no,cellular,jun,mon,107,3,999,0,nonexistent,-2.9,92.963,-40.8,1.281,5076.2,yes
 16186,32,technician,married,professional.course,no,no,no,cellular,aug,thu,172,3,999,0,nonexistent,1.4,93.444,-36.1,4.963,5228.1,no
