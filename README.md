@@ -1,4 +1,6 @@
 # DirectMarketing
+Help a bank to predict whether a customer will subscribe to a termed deposit after the direct marketing campaign. Total of 22500 customers, only 15% of them subscribed.
+<br>
 SpringboardProject2. Data from Kaggle.com
 ## Folder1: Data
 <ul>
@@ -12,7 +14,7 @@ sample_submission.csv </a></li>
 ## Folder2: Notebooks
 <ul>
 <li><a href="https://github.com/mengyanl/DirectMarketing/blob/master/NoteBook/DataWrangling.ipynb" >
-DataWrangling.ipynb </a></li>
+DataWrangling.ipynb </a></li> 
 <li><a href="https://github.com/mengyanl/DirectMarketing/blob/master/NoteBook/EDA.ipynb" >
 EDA.ipynb </a></li>
 <li><a href="https://github.com/mengyanl/DirectMarketing/blob/master/NoteBook/Preprocessing.ipynb" >Preprocessing.ipynb</a></li>
